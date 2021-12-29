@@ -1,4 +1,17 @@
-$font-stack: "Shrikhand", "Roboto", sans-serif;
+// Fonts
+
+$roboto-font-family: "Roboto", sans-serif;
+$sherikhand-font-family: "Shrikhand", sans-serif;
+
+//Fonts weights
+
+$light: 300;
+$normal: 400;
+$semibold: 500;
+$bold: 700;
+
+//colors
+
 $primary-color: #9356dc;
 $secondary-color: #ff79da;
 $tertiary-color: #99e2d0;
@@ -7,5 +20,5 @@ $tertiary-color: #99e2d0;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: #{$font-stack};
+  font-family: #{$roboto-font-family};
 }
