@@ -24,23 +24,26 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.css"
     />
+    <link rel="stylesheet" media="(max-width: 767px)" href="./css/mobile.css" />
+    <link rel="stylesheet" href="./css/mobile.css.map" />
+
     <title>ohmyfood</title>
   </head>
   <body>
     <header>
-      <div class="image-header">
-        <img src="./images/logo/ohmyfood.png" alt="logo" />
+      <div class="logo-header">
+        <span>ohmyfood</span>
       </div>
     </header>
 
     <div class="main-container">
       <div class="location">
+        <span>
+          <i class="fas fa-map-marker-alt"></i>
+        </span>
         <div class="location-title">
           <h1>Paris,Belleville</h1>
         </div>
-        <p>
-          <i class="fas fa-map-marker-alt"></i>
-        </p>
       </div>
       <div class="menu-book-banner">
         <div class="menu-book-container">
@@ -115,44 +118,43 @@
             </a>
 
             <a href="#">
-            <div class="card">
-              <div class="card-image">
-                <img
-                  src="./images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg"
-                  alt="restaurant1"
-                />
+              <div class="card">
+                <div class="card-image">
+                  <img
+                    src="./images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg"
+                    alt="restaurant1"
+                  />
+                </div>
+                <p>New</p>
+                <div class="card-content">
+                  <h3>Bastille</h3>
+                  <p>New York</p>
+                </div>
+                <div class="card-content-like-button">
+                  <i class="far fa-heart"></i>
+                </div>
               </div>
-              <p>New</p>
-              <div class="card-content">
-                <h3>Bastille</h3>
-                <p>New York</p>
-              </div>
-              <div class="card-content-like-button">
-                <i class="far fa-heart"></i>
-              </div>
-            </div>
-          </a>
+            </a>
 
-          <a href="#">
-            <div class="card">
-              <div class="card-image">
-                <img
-                  src="./images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg"
-                  alt="restaurant1"
-                />
+            <a href="#">
+              <div class="card">
+                <div class="card-image">
+                  <img
+                    src="./images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg"
+                    alt="restaurant1"
+                  />
+                </div>
+                <p>New</p>
+                <div class="card-content">
+                  <h3>Le Gourmand</h3>
+                  <p>New York</p>
+                </div>
+                <div class="card-content-like-button">
+                  <i class="far fa-heart"></i>
+                </div>
               </div>
-              <p>New</p>
-              <div class="card-content">
-                <h3>Le Gourmand</h3>
-                <p>New York</p>
-              </div>
-              <div class="card-content-like-button">
-                <i class="far fa-heart"></i>
-              </div>
-            </div>
+            </a>
           </div>
-        </a>
-
         </section>
 
         <footer>
@@ -161,8 +163,16 @@
           </div>
           <div class="footer-list">
             <ul>
-              <li><a href="#"><i class="fas fa-utensils"></i>Suggest a restaurant</a></li>
-              <li><a href="#"><i class="fas fa-hands-helping"></i>Become a partner</a></li>
+              <li>
+                <a href="#"
+                  ><i class="fas fa-utensils"></i>Suggest a restaurant</a
+                >
+              </li>
+              <li>
+                <a href="#"
+                  ><i class="fas fa-hands-helping"></i>Become a partner</a
+                >
+              </li>
               <li><a href="#">Legal</a></li>
               <li><a href="#">Contact</a></li>
             </ul>
