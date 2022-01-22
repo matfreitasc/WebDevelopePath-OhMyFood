@@ -31,8 +31,10 @@
   </head>
   <body>
     <header class="header">
-      <div class="logo-header">
-        <span>ohmyfood</span>
+      <div class="shadow">
+        <div class="logo-header">
+          <span>ohmyfood</span>
+        </div>
       </div>
     </header>
 
@@ -49,7 +51,9 @@
         <div class="menu-book-container">
           <h1>Book the menu you like</h1>
           <p>Discover top-of-the-art restaurants we picked for you</p>
-          <button class="menu-explore-button">Explore our restaurants</button>
+          <a href="#restaurants" class="menu-explore-button">
+            Explore our restaurants
+          </a>
         </div>
 
         <div class="how-it-works">
@@ -70,12 +74,12 @@
             <div class="how-it-works-card">
               <span>3</span>
               <i class="fas fa-store"></i>
-              <p>Choose your restaurant</p>
+              <p>Go enjoy it at the restaurant</p>
             </div>
           </div>
         </div>
 
-        <section class="restaurants">
+        <section class="restaurants" id="restaurants">
           <h2>Restaurants</h2>
           <div class="restaurants-cards">
             <div class="card">
@@ -90,7 +94,8 @@
                 <p>New York</p>
               </div>
               <div class="card-content-like-button">
-                <i class="far fa-heart"></i>
+                <input type="checkbox" id="like-checkbox" />
+                <label for="like-checkbox"></label>
               </div>
             </div>
 
@@ -106,7 +111,8 @@
                 <p>New York</p>
               </div>
               <div class="card-content-like-button">
-                <i class="far fa-heart"></i>
+                <input type="checkbox" id="like-checkbox-2" />
+                <label for="like-checkbox-2"></label>
               </div>
             </div>
 
@@ -116,12 +122,14 @@
                 src="./images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg"
                 alt="restaurant1"
               />
+
               <div class="card-content">
                 <h3>Bastille</h3>
                 <p>New York</p>
               </div>
               <div class="card-content-like-button">
-                <i class="far fa-heart"></i>
+                <input type="checkbox" id="like-checkbox-3" />
+                <label for="like-checkbox-3"></label>
               </div>
             </div>
 
@@ -131,12 +139,14 @@
                 src="./images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg"
                 alt="restaurant1"
               />
+
               <div class="card-content">
                 <h3>Le Gourmand</h3>
                 <p>New York</p>
               </div>
               <div class="card-content-like-button">
-                <i class="far fa-heart"></i>
+                <input type="checkbox" id="like-checkbox-4" />
+                <label for="like-checkbox-4"></label>
               </div>
             </div>
           </div>
