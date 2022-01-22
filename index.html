@@ -30,9 +30,13 @@
     <title>ohmyfood</title>
   </head>
   <body>
+    <div class="page-loader">
+      <div class="loader"></div>
+    </div>
     <header class="header">
       <div class="shadow">
         <div class="logo-header">
+          
           <span>ohmyfood</span>
         </div>
       </div>
@@ -83,19 +87,23 @@
           <h2>Restaurants</h2>
           <div class="restaurants-cards">
             <div class="card">
-              <img
-                class="card-image"
-                src="./images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg"
-                alt="restaurant1"
-              />
+              <a href="/thefullpalette.html">
+                <img
+                  class="card-image"
+                  src="./images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg"
+                  alt="restaurant1"
+                />
+              </a>
               <p class="new-restaurant">New</p>
-              <div class="card-content">
-                <h3>The Full Palette</h3>
-                <p>New York</p>
-              </div>
+              <a href="/thefullpalette.html">
+                <div class="card-content">
+                  <h3>The Full Palette</h3>
+                  <p>New York</p>
+                </div>
+              </a>
               <div class="card-content-like-button">
                 <input type="checkbox" id="like-checkbox" />
-                <label for="like-checkbox"></label>
+                <label for="like-checkbox"><i class="far fa-heart"></i></label>
               </div>
             </div>
 
@@ -112,7 +120,9 @@
               </div>
               <div class="card-content-like-button">
                 <input type="checkbox" id="like-checkbox-2" />
-                <label for="like-checkbox-2"></label>
+                <label for="like-checkbox-2"
+                  ><i class="far fa-heart"></i
+                ></label>
               </div>
             </div>
 
@@ -129,7 +139,9 @@
               </div>
               <div class="card-content-like-button">
                 <input type="checkbox" id="like-checkbox-3" />
-                <label for="like-checkbox-3"></label>
+                <label for="like-checkbox-3"
+                  ><i class="far fa-heart"></i
+                ></label>
               </div>
             </div>
 
@@ -146,7 +158,9 @@
               </div>
               <div class="card-content-like-button">
                 <input type="checkbox" id="like-checkbox-4" />
-                <label for="like-checkbox-4"></label>
+                <label for="like-checkbox-4"
+                  ><i class="far fa-heart"></i
+                ></label>
               </div>
             </div>
           </div>
@@ -159,17 +173,17 @@
           <div class="footer-list">
             <ul>
               <li>
-                <a href="#"
+                <a href="#0"
                   ><i class="fas fa-utensils"></i>Suggest a restaurant</a
                 >
               </li>
               <li>
-                <a href="#"
+                <a href="#0"
                   ><i class="fas fa-hands-helping"></i>Become a partner</a
                 >
               </li>
-              <li><a href="#">Legal</a></li>
-              <li><a href="#">Contact</a></li>
+              <li><a href="#0">Legal</a></li>
+              <li><a href="mailto:contact@ohmyfood.com">Contact</a></li>
             </ul>
           </div>
         </footer>
