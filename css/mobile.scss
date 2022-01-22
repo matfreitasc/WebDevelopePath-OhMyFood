@@ -243,11 +243,14 @@ html {
             opacity: 0;
             width: 22px;
             height: 22px;
+            display: flex;
+            align-items: center;
             & + label {
               position: absolute;
-              top: 0px;
-              left: 0px;
-              display: flex;
+              top: 0;
+              left: 0;
+              width: 22px;
+              height: 22px;
               &::before {
                 font-family: "font awesome 5 free";
                 font-weight: 100;
