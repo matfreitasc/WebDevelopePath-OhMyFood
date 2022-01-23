@@ -427,163 +427,6 @@ html {
   font-weight: 300;
   color: #000000;
   margin: 22px 0px 0px 0px;
-  opacity: 0;
-}
-
-.main-container .menu-container .menu-categories .dish-types:nth-child(1) {
-  -webkit-animation-name: cards-loading;
-          animation-name: cards-loading;
-  -webkit-animation-duration: 0.5s;
-          animation-duration: 0.5s;
-  -webkit-animation-delay: 0.8s;
-          animation-delay: 0.8s;
-  -webkit-animation-timing-function: ease-in-out;
-          animation-timing-function: ease-in-out;
-  -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
-}
-
-.main-container .menu-container .menu-categories .dish-types:nth-child(2) {
-  -webkit-animation-name: cards-loading;
-          animation-name: cards-loading;
-  -webkit-animation-duration: 0.5s;
-          animation-duration: 0.5s;
-  -webkit-animation-delay: 1.6s;
-          animation-delay: 1.6s;
-  -webkit-animation-timing-function: ease-in-out;
-          animation-timing-function: ease-in-out;
-  -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
-}
-
-.main-container .menu-container .menu-categories .dish-types:nth-child(3) {
-  -webkit-animation-name: cards-loading;
-          animation-name: cards-loading;
-  -webkit-animation-duration: 0.5s;
-          animation-duration: 0.5s;
-  -webkit-animation-delay: 2.4s;
-          animation-delay: 2.4s;
-  -webkit-animation-timing-function: ease-in-out;
-          animation-timing-function: ease-in-out;
-  -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
-}
-
-.main-container .menu-container .menu-categories .dish-types:nth-child(4) {
-  -webkit-animation-name: cards-loading;
-          animation-name: cards-loading;
-  -webkit-animation-duration: 0.5s;
-          animation-duration: 0.5s;
-  -webkit-animation-delay: 3.2s;
-          animation-delay: 3.2s;
-  -webkit-animation-timing-function: ease-in-out;
-          animation-timing-function: ease-in-out;
-  -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
-}
-
-.main-container .menu-container .menu-categories .dish-types:nth-child(5) {
-  -webkit-animation-name: cards-loading;
-          animation-name: cards-loading;
-  -webkit-animation-duration: 0.5s;
-          animation-duration: 0.5s;
-  -webkit-animation-delay: 4s;
-          animation-delay: 4s;
-  -webkit-animation-timing-function: ease-in-out;
-          animation-timing-function: ease-in-out;
-  -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
-}
-
-.main-container .menu-container .menu-categories .dish-types:nth-child(6) {
-  -webkit-animation-name: cards-loading;
-          animation-name: cards-loading;
-  -webkit-animation-duration: 0.5s;
-          animation-duration: 0.5s;
-  -webkit-animation-delay: 4.8s;
-          animation-delay: 4.8s;
-  -webkit-animation-timing-function: ease-in-out;
-          animation-timing-function: ease-in-out;
-  -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
-}
-
-.main-container .menu-container .menu-categories .dish-types:nth-child(7) {
-  -webkit-animation-name: cards-loading;
-          animation-name: cards-loading;
-  -webkit-animation-duration: 0.5s;
-          animation-duration: 0.5s;
-  -webkit-animation-delay: 5.6s;
-          animation-delay: 5.6s;
-  -webkit-animation-timing-function: ease-in-out;
-          animation-timing-function: ease-in-out;
-  -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
-}
-
-.main-container .menu-container .menu-categories .dish-types:nth-child(8) {
-  -webkit-animation-name: cards-loading;
-          animation-name: cards-loading;
-  -webkit-animation-duration: 0.5s;
-          animation-duration: 0.5s;
-  -webkit-animation-delay: 6.4s;
-          animation-delay: 6.4s;
-  -webkit-animation-timing-function: ease-in-out;
-          animation-timing-function: ease-in-out;
-  -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
-}
-
-.main-container .menu-container .menu-categories .dish-types:nth-child(9) {
-  -webkit-animation-name: cards-loading;
-          animation-name: cards-loading;
-  -webkit-animation-duration: 0.5s;
-          animation-duration: 0.5s;
-  -webkit-animation-delay: 7.2s;
-          animation-delay: 7.2s;
-  -webkit-animation-timing-function: ease-in-out;
-          animation-timing-function: ease-in-out;
-  -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
-}
-
-.main-container .menu-container .menu-categories .dish-types:nth-child(10) {
-  -webkit-animation-name: cards-loading;
-          animation-name: cards-loading;
-  -webkit-animation-duration: 0.5s;
-          animation-duration: 0.5s;
-  -webkit-animation-delay: 8s;
-          animation-delay: 8s;
-  -webkit-animation-timing-function: ease-in-out;
-          animation-timing-function: ease-in-out;
-  -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
-}
-
-.main-container .menu-container .menu-categories .dish-types:nth-child(11) {
-  -webkit-animation-name: cards-loading;
-          animation-name: cards-loading;
-  -webkit-animation-duration: 0.5s;
-          animation-duration: 0.5s;
-  -webkit-animation-delay: 8.8s;
-          animation-delay: 8.8s;
-  -webkit-animation-timing-function: ease-in-out;
-          animation-timing-function: ease-in-out;
-  -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
-}
-
-.main-container .menu-container .menu-categories .dish-types:nth-child(12) {
-  -webkit-animation-name: cards-loading;
-          animation-name: cards-loading;
-  -webkit-animation-duration: 0.5s;
-          animation-duration: 0.5s;
-  -webkit-animation-delay: 9.6s;
-          animation-delay: 9.6s;
-  -webkit-animation-timing-function: ease-in-out;
-          animation-timing-function: ease-in-out;
-  -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
 }
 
 .main-container .menu-container .menu-categories .dish-types::after {
@@ -634,163 +477,7 @@ html {
   -ms-flex-wrap: nowrap;
       flex-wrap: nowrap;
   overflow: hidden;
-  opacity: 0;
-}
-
-.main-container .menu-container .menu-categories .menu-cards .cards:nth-child(1) {
-  -webkit-animation-name: cards-loading;
-          animation-name: cards-loading;
-  -webkit-animation-duration: 0.5s;
-          animation-duration: 0.5s;
-  -webkit-animation-delay: 0.8s;
-          animation-delay: 0.8s;
-  -webkit-animation-timing-function: ease-in-out;
-          animation-timing-function: ease-in-out;
-  -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
-}
-
-.main-container .menu-container .menu-categories .menu-cards .cards:nth-child(2) {
-  -webkit-animation-name: cards-loading;
-          animation-name: cards-loading;
-  -webkit-animation-duration: 0.5s;
-          animation-duration: 0.5s;
-  -webkit-animation-delay: 1.6s;
-          animation-delay: 1.6s;
-  -webkit-animation-timing-function: ease-in-out;
-          animation-timing-function: ease-in-out;
-  -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
-}
-
-.main-container .menu-container .menu-categories .menu-cards .cards:nth-child(3) {
-  -webkit-animation-name: cards-loading;
-          animation-name: cards-loading;
-  -webkit-animation-duration: 0.5s;
-          animation-duration: 0.5s;
-  -webkit-animation-delay: 2.4s;
-          animation-delay: 2.4s;
-  -webkit-animation-timing-function: ease-in-out;
-          animation-timing-function: ease-in-out;
-  -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
-}
-
-.main-container .menu-container .menu-categories .menu-cards .cards:nth-child(4) {
-  -webkit-animation-name: cards-loading;
-          animation-name: cards-loading;
-  -webkit-animation-duration: 0.5s;
-          animation-duration: 0.5s;
-  -webkit-animation-delay: 3.2s;
-          animation-delay: 3.2s;
-  -webkit-animation-timing-function: ease-in-out;
-          animation-timing-function: ease-in-out;
-  -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
-}
-
-.main-container .menu-container .menu-categories .menu-cards .cards:nth-child(5) {
-  -webkit-animation-name: cards-loading;
-          animation-name: cards-loading;
-  -webkit-animation-duration: 0.5s;
-          animation-duration: 0.5s;
-  -webkit-animation-delay: 4s;
-          animation-delay: 4s;
-  -webkit-animation-timing-function: ease-in-out;
-          animation-timing-function: ease-in-out;
-  -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
-}
-
-.main-container .menu-container .menu-categories .menu-cards .cards:nth-child(6) {
-  -webkit-animation-name: cards-loading;
-          animation-name: cards-loading;
-  -webkit-animation-duration: 0.5s;
-          animation-duration: 0.5s;
-  -webkit-animation-delay: 4.8s;
-          animation-delay: 4.8s;
-  -webkit-animation-timing-function: ease-in-out;
-          animation-timing-function: ease-in-out;
-  -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
-}
-
-.main-container .menu-container .menu-categories .menu-cards .cards:nth-child(7) {
-  -webkit-animation-name: cards-loading;
-          animation-name: cards-loading;
-  -webkit-animation-duration: 0.5s;
-          animation-duration: 0.5s;
-  -webkit-animation-delay: 5.6s;
-          animation-delay: 5.6s;
-  -webkit-animation-timing-function: ease-in-out;
-          animation-timing-function: ease-in-out;
-  -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
-}
-
-.main-container .menu-container .menu-categories .menu-cards .cards:nth-child(8) {
-  -webkit-animation-name: cards-loading;
-          animation-name: cards-loading;
-  -webkit-animation-duration: 0.5s;
-          animation-duration: 0.5s;
-  -webkit-animation-delay: 6.4s;
-          animation-delay: 6.4s;
-  -webkit-animation-timing-function: ease-in-out;
-          animation-timing-function: ease-in-out;
-  -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
-}
-
-.main-container .menu-container .menu-categories .menu-cards .cards:nth-child(9) {
-  -webkit-animation-name: cards-loading;
-          animation-name: cards-loading;
-  -webkit-animation-duration: 0.5s;
-          animation-duration: 0.5s;
-  -webkit-animation-delay: 7.2s;
-          animation-delay: 7.2s;
-  -webkit-animation-timing-function: ease-in-out;
-          animation-timing-function: ease-in-out;
-  -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
-}
-
-.main-container .menu-container .menu-categories .menu-cards .cards:nth-child(10) {
-  -webkit-animation-name: cards-loading;
-          animation-name: cards-loading;
-  -webkit-animation-duration: 0.5s;
-          animation-duration: 0.5s;
-  -webkit-animation-delay: 8s;
-          animation-delay: 8s;
-  -webkit-animation-timing-function: ease-in-out;
-          animation-timing-function: ease-in-out;
-  -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
-}
-
-.main-container .menu-container .menu-categories .menu-cards .cards:nth-child(11) {
-  -webkit-animation-name: cards-loading;
-          animation-name: cards-loading;
-  -webkit-animation-duration: 0.5s;
-          animation-duration: 0.5s;
-  -webkit-animation-delay: 8.8s;
-          animation-delay: 8.8s;
-  -webkit-animation-timing-function: ease-in-out;
-          animation-timing-function: ease-in-out;
-  -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
-}
-
-.main-container .menu-container .menu-categories .menu-cards .cards:nth-child(12) {
-  -webkit-animation-name: cards-loading;
-          animation-name: cards-loading;
-  -webkit-animation-duration: 0.5s;
-          animation-duration: 0.5s;
-  -webkit-animation-delay: 9.6s;
-          animation-delay: 9.6s;
-  -webkit-animation-timing-function: ease-in-out;
-          animation-timing-function: ease-in-out;
-  -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
+  z-index: 1;
 }
 
 .main-container .menu-container .menu-categories .menu-cards .cards .item-name {
@@ -806,88 +493,121 @@ html {
   color: #000000;
 }
 
-.main-container .menu-container .menu-categories .menu-cards .cards .item-price {
-  position: absolute;
-  right: 20px;
-  bottom: 18px;
-  font-size: 15px;
-  font-weight: 700;
-  color: #000000;
-}
-
 .main-container .menu-container .menu-categories .menu-cards .cards .add-to-cart {
   position: absolute;
   top: 0;
-  right: 0;
-  width: 60px;
+  left: 0px;
   height: 100%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  z-index: 2;
 }
 
 .main-container .menu-container .menu-categories .menu-cards .cards .add-to-cart input[type="checkbox"] {
-  width: 60px;
-  height: 100%;
-  opacity: 0;
-}
-
-.main-container .menu-container .menu-categories .menu-cards .cards .add-to-cart input[type="checkbox"] + label {
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 60px;
-  height: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  z-index: 1;
+  position: absolute;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  outline: none;
+  opacity: 1;
+  cursor: pointer;
+  border-radius: 0 0 15px;
+  overflow: hidden;
 }
 
-.main-container .menu-container .menu-categories .menu-cards .cards .add-to-cart input[type="checkbox"] + label i {
-  font-size: 22px;
-  color: #881d1d;
-  position: relative;
-  right: -50px;
-}
-
-.main-container .menu-container .menu-categories .menu-cards .cards .add-to-cart input[type="checkbox"] + label::before {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+.main-container .menu-container .menu-categories .menu-cards .cards .add-to-cart input[type="checkbox"]::before {
   width: 60px;
   height: 100%;
   position: absolute;
-  color: #be0000;
+  right: -60px;
   content: "";
-  /* fa-heart */
+  -webkit-transition: 1s;
+  transition: 1s;
+  background-color: #99e2d0;
 }
 
-.main-container .menu-container .menu-categories .menu-cards .cards .add-to-cart input[type="checkbox"]:checked + label::before {
-  width: 60px;
-  height: 100%;
+.main-container .menu-container .menu-categories .menu-cards .cards .add-to-cart input[type="checkbox"]::after {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  font-size: 22px;
+  color: white;
+  position: absolute;
+  right: -30px;
+  content: "\f058";
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.main-container .menu-container .menu-categories .menu-cards .cards .add-to-cart label {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  font-size: 22px;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  position: absolute;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  right: 0px;
+  top: 35px;
+  margin-right: 25px;
+  padding: 2px;
+  font-size: 16px;
   font-weight: 700;
-  background: #99e2d0;
-  content: "";
+  -webkit-transition-delay: 0.4s;
+          transition-delay: 0.4s;
+  -webkit-transition: 1s;
+  transition: 1s;
+  background-color: white;
+  overflow: hidden;
+}
+
+.main-container .menu-container .menu-categories .menu-cards .cards .add-to-cart label::before {
+  content: "...";
+  margin-right: 5px;
+  display: none;
+  position: relative;
+  -webkit-transition-delay: 0.5s;
+          transition-delay: 0.5s;
+  -webkit-transition: 1s ease-in-out;
+  transition: 1s ease-in-out;
+  background-color: white;
+}
+
+.main-container .menu-container .menu-categories .menu-cards .cards .add-to-cart input[type="checkbox"]:checked::after {
+  right: 20px;
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+.main-container .menu-container .menu-categories .menu-cards .cards .add-to-cart input[type="checkbox"]:checked::before {
+  background-color: #99e2d0;
+  right: 0px;
+}
+
+.main-container .menu-container .menu-categories .menu-cards .cards .add-to-cart input[type="checkbox"]:checked + label {
+  right: 45px;
+}
+
+.main-container .menu-container .menu-categories .menu-cards .cards .add-to-cart input[type="checkbox"]:checked + .big-text::before {
+  display: inline-block;
 }
 
 .main-container .menu-container .order-button {

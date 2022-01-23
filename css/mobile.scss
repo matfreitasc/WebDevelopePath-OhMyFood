@@ -330,16 +330,16 @@ html {
         color: #000000;
         margin: 22px 0px 0px 0px;
 
-        opacity: 0;
-        @for $i from 1 through 12 {
-          &:nth-child(#{$i}) {
-            animation-name: cards-loading;
-            animation-duration: 0.5s;
-            animation-delay: #{$i * 0.8}s;
-            animation-timing-function: ease-in-out;
-            animation-fill-mode: forwards;
-          }
-        }
+        // opacity: 0;
+        // @for $i from 1 through 12 {
+        //   &:nth-child(#{$i}) {
+        //     animation-name: cards-loading;
+        //     animation-duration: 0.5s;
+        //     animation-delay: #{$i * 0.8}s;
+        //     animation-timing-function: ease-in-out;
+        //     animation-fill-mode: forwards;
+        //   }
+        // }
 
         &::after {
           content: "";
@@ -371,17 +371,17 @@ html {
           justify-content: center;
           flex-wrap: nowrap;
           overflow: hidden;
-
-          opacity: 0;
-          @for $i from 1 through 12 {
-            &:nth-child(#{$i}) {
-              animation-name: cards-loading;
-              animation-duration: 0.5s;
-              animation-delay: #{$i * 0.8}s;
-              animation-timing-function: ease-in-out;
-              animation-fill-mode: forwards;
-            }
-          }
+          z-index: 1;
+          // opacity: 0;
+          // @for $i from 1 through 12 {
+          //   &:nth-child(#{$i}) {
+          //     animation-name: cards-loading;
+          //     animation-duration: 0.5s;
+          //     animation-delay: #{$i * 0.8}s;
+          //     animation-timing-function: ease-in-out;
+          //     animation-fill-mode: forwards;
+          //   }
+          // }
 
           .item-name {
             font-size: 18px;
@@ -394,61 +394,93 @@ html {
             font-weight: $light;
             color: #000000;
           }
-          .item-price {
-            position: absolute;
-            right: 20px;
-            bottom: 18px;
-            font-size: 15px;
-            font-weight: $bold;
-            color: #000000;
-          }
+
           .add-to-cart {
             position: absolute;
             top: 0;
-            right: 0;
-            width: 60px;
+            left: 0px;
             height: 100%;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            z-index: 2;
             input[type="checkbox"] {
-              width: 60px;
+              display: flex;
+              align-items: center;
+              position: absolute;
+              left: 0px;
+              width: 100%;
               height: 100%;
-              opacity: 0;
-              & + label {
+              appearance: none;
+              outline: none;
+              opacity: 1;
+              cursor: pointer;
+              border-radius: 0 0 15px;
+              overflow: hidden;
+              &::before {
+                width: 60px;
+                height: 100%;
                 position: absolute;
-                top: 0;
-                right: 0;
-                width: 60px;
-                height: 100%;
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                z-index: 1;
-                i {
-                  font-size: 22px;
-                  color: rgb(136, 29, 29);
-                  position: relative;
-                  right: -50px;
-                }
-                &::before {
-                  display: flex;
-                  align-items: center;
-                  justify-content: center;
-                  width: 60px;
-                  height: 100%;
-                  position: absolute;
-                  color: #be0000;
-                  content: ""; /* fa-heart */
-                }
-              }
-              &:checked + label::before {
-                width: 60px;
-                height: 100%;
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                font-size: 22px;
-                font-weight: 700;
-                background: $tertiary-color;
+                right: -60px;
                 content: "";
+                transition: 1s;
+                background-color: $tertiary-color;
+              }
+              &::after {
+                font-family: "Font Awesome 5 Free";
+                font-weight: 900;
+                font-size: 22px;
+                color: white;
+                position: absolute;
+                right: -30px;
+                content: "\f058";
+                transition: 1s;
+              }
+            }
+            label {
+              display: flex;
+              align-items: center;
+              align-content: center;
+              position: absolute;
+              height: fit-content;
+              right: 0px;
+              top: 35px;
+              margin-right: 25px;
+              padding: 2px;
+              font-size: 16px;
+              font-weight: $bold;
+              transition-delay: 0.4s;
+              transition: 1s;
+              background-color: white;
+
+              overflow: hidden;
+              &::before {
+                content: "...";
+                margin-right: 5px;
+                display: none;
+                position: relative;
+                transition-delay: 0.5s;
+                transition: 1s ease-in-out;
+                background-color: white;
+              }
+            }
+
+            input[type="checkbox"]:checked {
+              &::after {
+                right: 20px;
+                transform: rotate(360deg);
+              }
+              &::before {
+                background-color: $tertiary-color;
+                right: 0px;
+              }
+            }
+            input[type="checkbox"]:checked + label {
+              right: 45px;
+            }
+            input[type="checkbox"]:checked + .big-text {
+              &::before {
+                display: inline-block;
               }
             }
           }
