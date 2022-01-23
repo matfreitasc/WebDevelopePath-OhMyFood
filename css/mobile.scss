@@ -456,12 +456,10 @@ html {
               overflow: hidden;
               &::before {
                 content: "...";
-                margin-right: 5px;
-                display: none;
+                margin-right: 10px;
+                opacity: 0;
                 position: relative;
-                transition-delay: 0.5s;
-                transition: 1s ease-in-out;
-                background-color: white;
+                transition: opacity 0s ease-in-out 0.24s;
               }
             }
 
@@ -480,7 +478,7 @@ html {
             }
             input[type="checkbox"]:checked + .big-text {
               &::before {
-                display: inline-block;
+                opacity: 1;
               }
             }
           }

@@ -581,14 +581,11 @@ html {
 
 .main-container .menu-container .menu-categories .menu-cards .cards .add-to-cart label::before {
   content: "...";
-  margin-right: 5px;
-  display: none;
+  margin-right: 10px;
+  opacity: 0;
   position: relative;
-  -webkit-transition-delay: 0.5s;
-          transition-delay: 0.5s;
-  -webkit-transition: 1s ease-in-out;
-  transition: 1s ease-in-out;
-  background-color: white;
+  -webkit-transition: opacity 0s ease-in-out 0.24s;
+  transition: opacity 0s ease-in-out 0.24s;
 }
 
 .main-container .menu-container .menu-categories .menu-cards .cards .add-to-cart input[type="checkbox"]:checked::after {
@@ -607,7 +604,7 @@ html {
 }
 
 .main-container .menu-container .menu-categories .menu-cards .cards .add-to-cart input[type="checkbox"]:checked + .big-text::before {
-  display: inline-block;
+  opacity: 1;
 }
 
 .main-container .menu-container .order-button {
