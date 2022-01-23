@@ -30,6 +30,7 @@ $gradient-button-color: linear-gradient(
 }
 body {
   min-width: 375px;
+  max-width: 375px;
   overflow-x: hidden;
 }
 html {
@@ -241,6 +242,7 @@ html {
         .card-content {
           margin: 15px;
           height: 41px;
+          width: fit-content;
           h3 {
             font-size: 18px;
             font-weight: $bold;
@@ -304,12 +306,14 @@ html {
         position: relative;
         width: 22px;
         height: 22px;
+        cursor: pointer;
         label {
           position: absolute;
           top: 0;
           left: 0;
           width: 22px;
           height: 22px;
+
           i {
             font-size: 22px;
             color: #afafaf;
@@ -576,6 +580,7 @@ footer {
         position: absolute;
         color: #afafaf;
         content: "\f004"; /* fa-heart */
+        cursor: pointer;
       }
     }
     &:checked + label::before {

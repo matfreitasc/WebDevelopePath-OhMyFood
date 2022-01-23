@@ -8,6 +8,7 @@
 
 body {
   min-width: 375px;
+  max-width: 375px;
   overflow-x: hidden;
 }
 
@@ -320,6 +321,9 @@ html {
 .main-container .menu-book-banner .restaurants .restaurants-cards .card-content {
   margin: 15px;
   height: 41px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
 }
 
 .main-container .menu-book-banner .restaurants .restaurants-cards .card-content h3 {
@@ -398,6 +402,7 @@ html {
   position: relative;
   width: 22px;
   height: 22px;
+  cursor: pointer;
 }
 
 .main-container .menu-container .menu-tittle .menu-tittle-like-button label {
@@ -1082,6 +1087,7 @@ footer .footer-list li a i {
   color: #afafaf;
   content: "\f004";
   /* fa-heart */
+  cursor: pointer;
 }
 
 .card-content-like-button input[type="checkbox"]:checked + label::before,
