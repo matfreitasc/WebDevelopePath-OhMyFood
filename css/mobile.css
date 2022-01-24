@@ -438,8 +438,8 @@ html {
 .main-container .menu-container .menu-categories .dish-types:nth-child(1) {
   -webkit-animation-name: cards-loading;
           animation-name: cards-loading;
-  -webkit-animation-duration: 0.5s;
-          animation-duration: 0.5s;
+  -webkit-animation-duration: 0.3s;
+          animation-duration: 0.3s;
   -webkit-animation-delay: 0.5s;
           animation-delay: 0.5s;
   -webkit-animation-timing-function: ease-in-out;
@@ -451,8 +451,8 @@ html {
 .main-container .menu-container .menu-categories .dish-types:nth-child(2) {
   -webkit-animation-name: cards-loading;
           animation-name: cards-loading;
-  -webkit-animation-duration: 0.5s;
-          animation-duration: 0.5s;
+  -webkit-animation-duration: 0.3s;
+          animation-duration: 0.3s;
   -webkit-animation-delay: 1s;
           animation-delay: 1s;
   -webkit-animation-timing-function: ease-in-out;
@@ -464,8 +464,8 @@ html {
 .main-container .menu-container .menu-categories .dish-types:nth-child(3) {
   -webkit-animation-name: cards-loading;
           animation-name: cards-loading;
-  -webkit-animation-duration: 0.5s;
-          animation-duration: 0.5s;
+  -webkit-animation-duration: 0.3s;
+          animation-duration: 0.3s;
   -webkit-animation-delay: 1.5s;
           animation-delay: 1.5s;
   -webkit-animation-timing-function: ease-in-out;
@@ -477,8 +477,8 @@ html {
 .main-container .menu-container .menu-categories .dish-types:nth-child(4) {
   -webkit-animation-name: cards-loading;
           animation-name: cards-loading;
-  -webkit-animation-duration: 0.5s;
-          animation-duration: 0.5s;
+  -webkit-animation-duration: 0.3s;
+          animation-duration: 0.3s;
   -webkit-animation-delay: 2s;
           animation-delay: 2s;
   -webkit-animation-timing-function: ease-in-out;
@@ -490,8 +490,8 @@ html {
 .main-container .menu-container .menu-categories .dish-types:nth-child(5) {
   -webkit-animation-name: cards-loading;
           animation-name: cards-loading;
-  -webkit-animation-duration: 0.5s;
-          animation-duration: 0.5s;
+  -webkit-animation-duration: 0.3s;
+          animation-duration: 0.3s;
   -webkit-animation-delay: 2.5s;
           animation-delay: 2.5s;
   -webkit-animation-timing-function: ease-in-out;
@@ -503,8 +503,8 @@ html {
 .main-container .menu-container .menu-categories .dish-types:nth-child(6) {
   -webkit-animation-name: cards-loading;
           animation-name: cards-loading;
-  -webkit-animation-duration: 0.5s;
-          animation-duration: 0.5s;
+  -webkit-animation-duration: 0.3s;
+          animation-duration: 0.3s;
   -webkit-animation-delay: 3s;
           animation-delay: 3s;
   -webkit-animation-timing-function: ease-in-out;
@@ -516,8 +516,8 @@ html {
 .main-container .menu-container .menu-categories .dish-types:nth-child(7) {
   -webkit-animation-name: cards-loading;
           animation-name: cards-loading;
-  -webkit-animation-duration: 0.5s;
-          animation-duration: 0.5s;
+  -webkit-animation-duration: 0.3s;
+          animation-duration: 0.3s;
   -webkit-animation-delay: 3.5s;
           animation-delay: 3.5s;
   -webkit-animation-timing-function: ease-in-out;
@@ -529,8 +529,8 @@ html {
 .main-container .menu-container .menu-categories .dish-types:nth-child(8) {
   -webkit-animation-name: cards-loading;
           animation-name: cards-loading;
-  -webkit-animation-duration: 0.5s;
-          animation-duration: 0.5s;
+  -webkit-animation-duration: 0.3s;
+          animation-duration: 0.3s;
   -webkit-animation-delay: 4s;
           animation-delay: 4s;
   -webkit-animation-timing-function: ease-in-out;
@@ -542,8 +542,8 @@ html {
 .main-container .menu-container .menu-categories .dish-types:nth-child(9) {
   -webkit-animation-name: cards-loading;
           animation-name: cards-loading;
-  -webkit-animation-duration: 0.5s;
-          animation-duration: 0.5s;
+  -webkit-animation-duration: 0.3s;
+          animation-duration: 0.3s;
   -webkit-animation-delay: 4.5s;
           animation-delay: 4.5s;
   -webkit-animation-timing-function: ease-in-out;
@@ -555,8 +555,8 @@ html {
 .main-container .menu-container .menu-categories .dish-types:nth-child(10) {
   -webkit-animation-name: cards-loading;
           animation-name: cards-loading;
-  -webkit-animation-duration: 0.5s;
-          animation-duration: 0.5s;
+  -webkit-animation-duration: 0.3s;
+          animation-duration: 0.3s;
   -webkit-animation-delay: 5s;
           animation-delay: 5s;
   -webkit-animation-timing-function: ease-in-out;
@@ -568,8 +568,8 @@ html {
 .main-container .menu-container .menu-categories .dish-types:nth-child(11) {
   -webkit-animation-name: cards-loading;
           animation-name: cards-loading;
-  -webkit-animation-duration: 0.5s;
-          animation-duration: 0.5s;
+  -webkit-animation-duration: 0.3s;
+          animation-duration: 0.3s;
   -webkit-animation-delay: 5.5s;
           animation-delay: 5.5s;
   -webkit-animation-timing-function: ease-in-out;
@@ -581,8 +581,8 @@ html {
 .main-container .menu-container .menu-categories .dish-types:nth-child(12) {
   -webkit-animation-name: cards-loading;
           animation-name: cards-loading;
-  -webkit-animation-duration: 0.5s;
-          animation-duration: 0.5s;
+  -webkit-animation-duration: 0.3s;
+          animation-duration: 0.3s;
   -webkit-animation-delay: 6s;
           animation-delay: 6s;
   -webkit-animation-timing-function: ease-in-out;
@@ -594,8 +594,8 @@ html {
 .main-container .menu-container .menu-categories .dish-types:nth-child(13) {
   -webkit-animation-name: cards-loading;
           animation-name: cards-loading;
-  -webkit-animation-duration: 0.5s;
-          animation-duration: 0.5s;
+  -webkit-animation-duration: 0.3s;
+          animation-duration: 0.3s;
   -webkit-animation-delay: 6.5s;
           animation-delay: 6.5s;
   -webkit-animation-timing-function: ease-in-out;
@@ -607,8 +607,8 @@ html {
 .main-container .menu-container .menu-categories .dish-types:nth-child(14) {
   -webkit-animation-name: cards-loading;
           animation-name: cards-loading;
-  -webkit-animation-duration: 0.5s;
-          animation-duration: 0.5s;
+  -webkit-animation-duration: 0.3s;
+          animation-duration: 0.3s;
   -webkit-animation-delay: 7s;
           animation-delay: 7s;
   -webkit-animation-timing-function: ease-in-out;
@@ -671,8 +671,8 @@ html {
 .main-container .menu-container .menu-categories .menu-cards .cards:nth-child(1) {
   -webkit-animation-name: cards-loading;
           animation-name: cards-loading;
-  -webkit-animation-duration: 0.5s;
-          animation-duration: 0.5s;
+  -webkit-animation-duration: 0.3s;
+          animation-duration: 0.3s;
   -webkit-animation-delay: 0.5s;
           animation-delay: 0.5s;
   -webkit-animation-timing-function: ease-in-out;
@@ -684,8 +684,8 @@ html {
 .main-container .menu-container .menu-categories .menu-cards .cards:nth-child(2) {
   -webkit-animation-name: cards-loading;
           animation-name: cards-loading;
-  -webkit-animation-duration: 0.5s;
-          animation-duration: 0.5s;
+  -webkit-animation-duration: 0.3s;
+          animation-duration: 0.3s;
   -webkit-animation-delay: 1s;
           animation-delay: 1s;
   -webkit-animation-timing-function: ease-in-out;
@@ -697,8 +697,8 @@ html {
 .main-container .menu-container .menu-categories .menu-cards .cards:nth-child(3) {
   -webkit-animation-name: cards-loading;
           animation-name: cards-loading;
-  -webkit-animation-duration: 0.5s;
-          animation-duration: 0.5s;
+  -webkit-animation-duration: 0.3s;
+          animation-duration: 0.3s;
   -webkit-animation-delay: 1.5s;
           animation-delay: 1.5s;
   -webkit-animation-timing-function: ease-in-out;
@@ -710,8 +710,8 @@ html {
 .main-container .menu-container .menu-categories .menu-cards .cards:nth-child(4) {
   -webkit-animation-name: cards-loading;
           animation-name: cards-loading;
-  -webkit-animation-duration: 0.5s;
-          animation-duration: 0.5s;
+  -webkit-animation-duration: 0.3s;
+          animation-duration: 0.3s;
   -webkit-animation-delay: 2s;
           animation-delay: 2s;
   -webkit-animation-timing-function: ease-in-out;
@@ -723,8 +723,8 @@ html {
 .main-container .menu-container .menu-categories .menu-cards .cards:nth-child(5) {
   -webkit-animation-name: cards-loading;
           animation-name: cards-loading;
-  -webkit-animation-duration: 0.5s;
-          animation-duration: 0.5s;
+  -webkit-animation-duration: 0.3s;
+          animation-duration: 0.3s;
   -webkit-animation-delay: 2.5s;
           animation-delay: 2.5s;
   -webkit-animation-timing-function: ease-in-out;
@@ -736,8 +736,8 @@ html {
 .main-container .menu-container .menu-categories .menu-cards .cards:nth-child(6) {
   -webkit-animation-name: cards-loading;
           animation-name: cards-loading;
-  -webkit-animation-duration: 0.5s;
-          animation-duration: 0.5s;
+  -webkit-animation-duration: 0.3s;
+          animation-duration: 0.3s;
   -webkit-animation-delay: 3s;
           animation-delay: 3s;
   -webkit-animation-timing-function: ease-in-out;
@@ -749,8 +749,8 @@ html {
 .main-container .menu-container .menu-categories .menu-cards .cards:nth-child(7) {
   -webkit-animation-name: cards-loading;
           animation-name: cards-loading;
-  -webkit-animation-duration: 0.5s;
-          animation-duration: 0.5s;
+  -webkit-animation-duration: 0.3s;
+          animation-duration: 0.3s;
   -webkit-animation-delay: 3.5s;
           animation-delay: 3.5s;
   -webkit-animation-timing-function: ease-in-out;
@@ -762,8 +762,8 @@ html {
 .main-container .menu-container .menu-categories .menu-cards .cards:nth-child(8) {
   -webkit-animation-name: cards-loading;
           animation-name: cards-loading;
-  -webkit-animation-duration: 0.5s;
-          animation-duration: 0.5s;
+  -webkit-animation-duration: 0.3s;
+          animation-duration: 0.3s;
   -webkit-animation-delay: 4s;
           animation-delay: 4s;
   -webkit-animation-timing-function: ease-in-out;
@@ -775,8 +775,8 @@ html {
 .main-container .menu-container .menu-categories .menu-cards .cards:nth-child(9) {
   -webkit-animation-name: cards-loading;
           animation-name: cards-loading;
-  -webkit-animation-duration: 0.5s;
-          animation-duration: 0.5s;
+  -webkit-animation-duration: 0.3s;
+          animation-duration: 0.3s;
   -webkit-animation-delay: 4.5s;
           animation-delay: 4.5s;
   -webkit-animation-timing-function: ease-in-out;
@@ -788,8 +788,8 @@ html {
 .main-container .menu-container .menu-categories .menu-cards .cards:nth-child(10) {
   -webkit-animation-name: cards-loading;
           animation-name: cards-loading;
-  -webkit-animation-duration: 0.5s;
-          animation-duration: 0.5s;
+  -webkit-animation-duration: 0.3s;
+          animation-duration: 0.3s;
   -webkit-animation-delay: 5s;
           animation-delay: 5s;
   -webkit-animation-timing-function: ease-in-out;
@@ -801,8 +801,8 @@ html {
 .main-container .menu-container .menu-categories .menu-cards .cards:nth-child(11) {
   -webkit-animation-name: cards-loading;
           animation-name: cards-loading;
-  -webkit-animation-duration: 0.5s;
-          animation-duration: 0.5s;
+  -webkit-animation-duration: 0.3s;
+          animation-duration: 0.3s;
   -webkit-animation-delay: 5.5s;
           animation-delay: 5.5s;
   -webkit-animation-timing-function: ease-in-out;
@@ -814,8 +814,8 @@ html {
 .main-container .menu-container .menu-categories .menu-cards .cards:nth-child(12) {
   -webkit-animation-name: cards-loading;
           animation-name: cards-loading;
-  -webkit-animation-duration: 0.5s;
-          animation-duration: 0.5s;
+  -webkit-animation-duration: 0.3s;
+          animation-duration: 0.3s;
   -webkit-animation-delay: 6s;
           animation-delay: 6s;
   -webkit-animation-timing-function: ease-in-out;
@@ -827,8 +827,8 @@ html {
 .main-container .menu-container .menu-categories .menu-cards .cards:nth-child(13) {
   -webkit-animation-name: cards-loading;
           animation-name: cards-loading;
-  -webkit-animation-duration: 0.5s;
-          animation-duration: 0.5s;
+  -webkit-animation-duration: 0.3s;
+          animation-duration: 0.3s;
   -webkit-animation-delay: 6.5s;
           animation-delay: 6.5s;
   -webkit-animation-timing-function: ease-in-out;
@@ -840,8 +840,8 @@ html {
 .main-container .menu-container .menu-categories .menu-cards .cards:nth-child(14) {
   -webkit-animation-name: cards-loading;
           animation-name: cards-loading;
-  -webkit-animation-duration: 0.5s;
-          animation-duration: 0.5s;
+  -webkit-animation-duration: 0.3s;
+          animation-duration: 0.3s;
   -webkit-animation-delay: 7s;
           animation-delay: 7s;
   -webkit-animation-timing-function: ease-in-out;
@@ -859,6 +859,7 @@ html {
 }
 
 .main-container .menu-container .menu-categories .menu-cards .cards .item-description {
+  width: 75%;
   font-size: 15px;
   font-weight: 300;
   color: #000000;
@@ -954,6 +955,7 @@ html {
   content: "...";
   margin-right: 10px;
   opacity: 0;
+  display: none;
   position: relative;
   -webkit-transition: opacity 0.09s ease-in-out 0.18s;
   transition: opacity 0.09s ease-in-out 0.18s;
@@ -975,6 +977,7 @@ html {
 }
 
 .main-container .menu-container .menu-categories .menu-cards .cards .add-to-cart input[type="checkbox"]:checked + .big-text::before {
+  display: inline-block;
   opacity: 1;
 }
 

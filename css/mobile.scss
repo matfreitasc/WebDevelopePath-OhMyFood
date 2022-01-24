@@ -346,7 +346,7 @@ html {
         @for $i from 1 through 14 {
           &:nth-child(#{$i}) {
             animation-name: cards-loading;
-            animation-duration: 0.5s;
+            animation-duration: 0.3s;
             animation-delay: #{$i * 0.5}s;
             animation-timing-function: ease-in-out;
             animation-fill-mode: forwards;
@@ -387,7 +387,7 @@ html {
           @for $i from 1 through 14 {
             &:nth-child(#{$i}) {
               animation-name: cards-loading;
-              animation-duration: 0.5s;
+              animation-duration: 0.3s;
               animation-delay: #{$i * 0.5}s;
               animation-timing-function: ease-in-out;
               animation-fill-mode: forwards;
@@ -402,6 +402,7 @@ html {
             margin-bottom: 5px;
           }
           .item-description {
+            width: 75%;
             font-size: 15px;
             font-weight: $light;
             color: #000000;
@@ -469,6 +470,7 @@ html {
                 content: "...";
                 margin-right: 10px;
                 opacity: 0;
+                display: none;
                 position: relative;
                 transition: opacity 0.09s ease-in-out 0.18s;
               }
@@ -489,6 +491,7 @@ html {
             }
             input[type="checkbox"]:checked + .big-text {
               &::before {
+                display: inline-block;
                 opacity: 1;
               }
             }
