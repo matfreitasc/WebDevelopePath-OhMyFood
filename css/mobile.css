@@ -398,7 +398,7 @@ html {
 }
 
 .main-container .menu-container .menu-tittle h2 {
-  font-size: 28px;
+  font-size: 25px;
   font-weight: 700;
   font-family: "Shrikhand", sans-serif;
 }
@@ -591,6 +591,32 @@ html {
           animation-fill-mode: forwards;
 }
 
+.main-container .menu-container .menu-categories .dish-types:nth-child(13) {
+  -webkit-animation-name: cards-loading;
+          animation-name: cards-loading;
+  -webkit-animation-duration: 0.5s;
+          animation-duration: 0.5s;
+  -webkit-animation-delay: 6.5s;
+          animation-delay: 6.5s;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.main-container .menu-container .menu-categories .dish-types:nth-child(14) {
+  -webkit-animation-name: cards-loading;
+          animation-name: cards-loading;
+  -webkit-animation-duration: 0.5s;
+          animation-duration: 0.5s;
+  -webkit-animation-delay: 7s;
+          animation-delay: 7s;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
 .main-container .menu-container .menu-categories .dish-types::after {
   content: "";
   background-color: #99e2d0;
@@ -617,11 +643,10 @@ html {
 
 .main-container .menu-container .menu-categories .menu-cards .cards {
   width: 100%;
-  height: 70px;
   border-radius: 15px;
   -webkit-box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, 0.205);
           box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, 0.205);
-  padding: 10px 12px;
+  padding: 12px 12px;
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -799,7 +824,34 @@ html {
           animation-fill-mode: forwards;
 }
 
+.main-container .menu-container .menu-categories .menu-cards .cards:nth-child(13) {
+  -webkit-animation-name: cards-loading;
+          animation-name: cards-loading;
+  -webkit-animation-duration: 0.5s;
+          animation-duration: 0.5s;
+  -webkit-animation-delay: 6.5s;
+          animation-delay: 6.5s;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.main-container .menu-container .menu-categories .menu-cards .cards:nth-child(14) {
+  -webkit-animation-name: cards-loading;
+          animation-name: cards-loading;
+  -webkit-animation-duration: 0.5s;
+          animation-duration: 0.5s;
+  -webkit-animation-delay: 7s;
+          animation-delay: 7s;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
 .main-container .menu-container .menu-categories .menu-cards .cards .item-name {
+  width: 80%;
   font-size: 18px;
   font-weight: 700;
   color: #000000;
