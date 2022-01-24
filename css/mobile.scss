@@ -22,6 +22,8 @@ $gradient-button-color: linear-gradient(
   rgba(255, 121, 218, 1) 100%
 );
 
+$like-button-color: black;
+
 * {
   margin: 0;
   padding: 0;
@@ -36,6 +38,9 @@ body {
 html {
   scroll-behavior: smooth;
 }
+
+// Header Styling //
+
 .header {
   width: 100%;
   height: 65px;
@@ -64,6 +69,9 @@ html {
   }
 }
 
+// End Header Styling //
+
+// Main Styling //
 .main-container {
   width: 100%;
   .location {
@@ -238,6 +246,11 @@ html {
               object-position: center -148px;
             }
           }
+          .card-like {
+            position: absolute;
+            right: 23px;
+            bottom: 30px;
+          }
         }
         .card-content {
           margin: 15px;
@@ -304,19 +317,18 @@ html {
       }
       .menu-tittle-like-button {
         position: relative;
-        width: 22px;
-        height: 22px;
+        width: 26px;
+        height: 26px;
         cursor: pointer;
         label {
           position: absolute;
           top: 0;
           left: 0;
-          width: 22px;
-          height: 22px;
-
+          width: 26px;
+          height: 26px;
           i {
             font-size: 22px;
-            color: #afafaf;
+            color: $like-button-color;
           }
         }
       }
@@ -330,16 +342,16 @@ html {
         color: #000000;
         margin: 22px 0px 0px 0px;
 
-        // opacity: 0;
-        // @for $i from 1 through 12 {
-        //   &:nth-child(#{$i}) {
-        //     animation-name: cards-loading;
-        //     animation-duration: 0.5s;
-        //     animation-delay: #{$i * 0.8}s;
-        //     animation-timing-function: ease-in-out;
-        //     animation-fill-mode: forwards;
-        //   }
-        // }
+        opacity: 0;
+        @for $i from 1 through 12 {
+          &:nth-child(#{$i}) {
+            animation-name: cards-loading;
+            animation-duration: 0.5s;
+            animation-delay: #{$i * 0.5}s;
+            animation-timing-function: ease-in-out;
+            animation-fill-mode: forwards;
+          }
+        }
 
         &::after {
           content: "";
@@ -372,16 +384,16 @@ html {
           flex-wrap: nowrap;
           overflow: hidden;
           z-index: 1;
-          // opacity: 0;
-          // @for $i from 1 through 12 {
-          //   &:nth-child(#{$i}) {
-          //     animation-name: cards-loading;
-          //     animation-duration: 0.5s;
-          //     animation-delay: #{$i * 0.8}s;
-          //     animation-timing-function: ease-in-out;
-          //     animation-fill-mode: forwards;
-          //   }
-          // }
+          opacity: 0;
+          @for $i from 1 through 12 {
+            &:nth-child(#{$i}) {
+              animation-name: cards-loading;
+              animation-duration: 0.5s;
+              animation-delay: #{$i * 0.5}s;
+              animation-timing-function: ease-in-out;
+              animation-fill-mode: forwards;
+            }
+          }
 
           .item-name {
             font-size: 18px;
@@ -459,7 +471,7 @@ html {
                 margin-right: 10px;
                 opacity: 0;
                 position: relative;
-                transition: opacity 0s ease-in-out 0.24s;
+                transition: opacity 0.095s ease-in-out 0.24s;
               }
             }
 
@@ -492,7 +504,7 @@ html {
       margin: 50px 0;
       position: relative;
       opacity: 0;
-      animation: cards-loading 1s ease-in-out forwards 9s;
+      animation: cards-loading 1s ease-in-out forwards 5.55s;
       button {
         position: relative;
         width: 186px;
@@ -503,6 +515,7 @@ html {
         font-size: 15px;
         border-style: none;
         cursor: pointer;
+        box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, 0.4);
       }
     }
   }
@@ -546,79 +559,79 @@ footer {
 
 // Page Loading Overlay //
 
-.page-loader {
-  height: 100%;
-  width: 100%;
-  position: fixed;
-  top: 0px;
-  left: 0px;
-  z-index: 99999;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #ffffff;
-  animation: loading-fade 1.8s ease-in-out 4s forwards;
-  .loader {
-    position: relative;
-    border-radius: 50%;
-    border: 5px solid #ffffff;
-    span {
-      position: relative;
-      display: inline-block;
-      font-family: $sherikhand-font-family;
-      font-size: 40px;
+// .page-loader {
+//   height: 100%;
+//   width: 100%;
+//   position: fixed;
+//   top: 0px;
+//   left: 0px;
+//   z-index: 99999;
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   background-color: #ffffff;
+//   animation: loading-fade 1.8s ease-in-out 4s forwards;
+//   .loader {
+//     position: relative;
+//     border-radius: 50%;
+//     border: 5px solid #ffffff;
+//     span {
+//       position: relative;
+//       display: inline-block;
+//       font-family: $sherikhand-font-family;
+//       font-size: 40px;
 
-      @for $i from 1 through 8 {
-        &:nth-child(#{$i}) {
-          animation: text-jump 1.8s ease-in-out #{$i * 0.1}s forwards 3,
-            loading-fade 1.8s ease-in-out 3.5s forwards;
-        }
-      }
-    }
-  }
-}
+//       @for $i from 1 through 8 {
+//         &:nth-child(#{$i}) {
+//           animation: text-jump 1.8s ease-in-out #{$i * 0.1}s forwards 3,
+//             loading-fade 1.8s ease-in-out 3.5s forwards;
+//         }
+//       }
+//     }
+//   }
+// }
 
-// Like Button Click //
-
+// Like Button Styling //
 .card-content-like-button,
 .menu-tittle-like-button {
   input[type="checkbox"] {
+    position: relative;
+    right: 0;
+    bottom: 0;
     opacity: 0;
-    width: 22px;
-    height: 22px;
+    width: 26px;
+    height: 26px;
     display: flex;
     align-items: center;
     & + label {
       position: absolute;
       top: 0;
       left: 0;
-      width: 22px;
-      height: 22px;
+      right: 0;
+      bottom: 0;
       i {
+        position: absolute;
+        top: 3px;
         font-size: 22px;
-        color: #afafaf;
+        color: $like-button-color;
+        z-index: 0;
       }
       &::before {
-        display: flex;
-        align-items: center;
-        justify-content: center;
+        position: absolute;
+        bottom: 0px;
+        left: 0px;
         font-family: "font awesome 5 free";
         font-weight: 100;
         font-size: 22px;
-        width: 22px;
-        height: 22px;
-        position: absolute;
-        color: #afafaf;
-        content: "\f004"; /* fa-heart */
+        color: $like-button-color;
+        z-index: 1;
+        content: ""; /* fa-heart */
         cursor: pointer;
       }
     }
     &:checked + label::before {
-      display: flex;
-      align-items: center;
-      justify-content: center;
       font-size: 22px;
-      animation: fill-in 0.3s ease-in-out;
+      animation: fill-in 0.3s ease-in-out forwards;
       font-weight: 700;
       background: linear-gradient(
         45deg,
@@ -635,13 +648,15 @@ footer {
   }
 }
 
+// End Like Button Styling //
+
 // animations //
 @keyframes fill-in {
   from {
-    font-size: 0px;
+    transform: scale(0);
   }
   to {
-    font-size: 22px;
+    transform: scale(1.2);
   }
 }
 
