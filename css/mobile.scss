@@ -32,7 +32,7 @@ $like-button-color: black;
 }
 body {
   min-width: 375px;
-  max-width: 375px;
+  // max-width: 375px;
   overflow-x: hidden;
 }
 html {
@@ -121,7 +121,7 @@ html {
         font-size: 16px;
         font-family: $roboto-font-family;
         color: #fff;
-        box-shadow: 0px 4px 6px 3px rgba(0, 0, 0, 0.21);
+        box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, 0.4);
         text-decoration: none;
       }
       h1 {
@@ -435,7 +435,7 @@ html {
                 position: absolute;
                 right: -60px;
                 content: "";
-                transition: 1s;
+                transition: 0.4s;
                 background-color: $tertiary-color;
               }
               &::after {
@@ -446,7 +446,7 @@ html {
                 position: absolute;
                 right: -30px;
                 content: "\f058";
-                transition: 1s;
+                transition: 0.4s;
               }
             }
             label {
@@ -457,21 +457,20 @@ html {
               height: fit-content;
               right: 0px;
               top: 35px;
-              margin-right: 25px;
+              margin-right: 26px;
               padding: 2px;
               font-size: 16px;
               font-weight: $bold;
               transition-delay: 0.4s;
-              transition: 1s;
+              transition: 0.5s;
               background-color: white;
-
               overflow: hidden;
               &::before {
                 content: "...";
                 margin-right: 10px;
                 opacity: 0;
                 position: relative;
-                transition: opacity 0.095s ease-in-out 0.24s;
+                transition: opacity 0.09s ease-in-out 0.18s;
               }
             }
 
@@ -559,37 +558,37 @@ footer {
 
 // Page Loading Overlay //
 
-// .page-loader {
-//   height: 100%;
-//   width: 100%;
-//   position: fixed;
-//   top: 0px;
-//   left: 0px;
-//   z-index: 99999;
-//   display: flex;
-//   justify-content: center;
-//   align-items: center;
-//   background-color: #ffffff;
-//   animation: loading-fade 1.8s ease-in-out 4s forwards;
-//   .loader {
-//     position: relative;
-//     border-radius: 50%;
-//     border: 5px solid #ffffff;
-//     span {
-//       position: relative;
-//       display: inline-block;
-//       font-family: $sherikhand-font-family;
-//       font-size: 40px;
-
-//       @for $i from 1 through 8 {
-//         &:nth-child(#{$i}) {
-//           animation: text-jump 1.8s ease-in-out #{$i * 0.1}s forwards 3,
-//             loading-fade 1.8s ease-in-out 3.5s forwards;
-//         }
-//       }
-//     }
-//   }
-// }
+.page-loader {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 99999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  overflow: hidden;
+  animation: loading-fade 1.8s ease-in-out 4s forwards;
+  .loader {
+    position: relative;
+    border-radius: 50%;
+    border: 5px solid #ffffff;
+    span {
+      position: relative;
+      display: inline-block;
+      font-family: $sherikhand-font-family;
+      font-size: 40px;
+      @for $i from 1 through 8 {
+        &:nth-child(#{$i}) {
+          animation: text-jump 1.8s ease-in-out #{$i * 0.1}s forwards 3,
+            loading-fade 1.8s ease-in-out 3.5s forwards;
+        }
+      }
+    }
+  }
+}
 
 // Like Button Styling //
 .card-content-like-button,
@@ -699,7 +698,7 @@ footer {
   }
   to {
     opacity: 0%;
-    overflow: hidden;
+    overflow: visible;
     visibility: hidden;
   }
 }

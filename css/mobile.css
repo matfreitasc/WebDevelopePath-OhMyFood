@@ -8,7 +8,6 @@
 
 body {
   min-width: 375px;
-  max-width: 375px;
   overflow-x: hidden;
 }
 
@@ -128,8 +127,8 @@ html {
   font-size: 16px;
   font-family: "Roboto", sans-serif;
   color: #fff;
-  -webkit-box-shadow: 0px 4px 6px 3px rgba(0, 0, 0, 0.21);
-          box-shadow: 0px 4px 6px 3px rgba(0, 0, 0, 0.21);
+  -webkit-box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, 0.4);
+          box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, 0.4);
   text-decoration: none;
 }
 
@@ -855,8 +854,8 @@ html {
   position: absolute;
   right: -60px;
   content: "";
-  -webkit-transition: 1s;
-  transition: 1s;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
   background-color: #99e2d0;
 }
 
@@ -868,8 +867,8 @@ html {
   position: absolute;
   right: -30px;
   content: "\f058";
-  -webkit-transition: 1s;
-  transition: 1s;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
 }
 
 .main-container .menu-container .menu-categories .menu-cards .cards .add-to-cart label {
@@ -887,14 +886,14 @@ html {
   height: fit-content;
   right: 0px;
   top: 35px;
-  margin-right: 25px;
+  margin-right: 26px;
   padding: 2px;
   font-size: 16px;
   font-weight: 700;
   -webkit-transition-delay: 0.4s;
           transition-delay: 0.4s;
-  -webkit-transition: 1s;
-  transition: 1s;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
   background-color: white;
   overflow: hidden;
 }
@@ -904,8 +903,8 @@ html {
   margin-right: 10px;
   opacity: 0;
   position: relative;
-  -webkit-transition: opacity 0.095s ease-in-out 0.24s;
-  transition: opacity 0.095s ease-in-out 0.24s;
+  -webkit-transition: opacity 0.09s ease-in-out 0.18s;
+  transition: opacity 0.09s ease-in-out 0.18s;
 }
 
 .main-container .menu-container .menu-categories .menu-cards .cards .add-to-cart input[type="checkbox"]:checked::after {
@@ -1002,6 +1001,81 @@ footer .footer-list li a i {
   height: 12px;
   font-size: 12px;
   margin-right: 12px;
+}
+
+.page-loader {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 99999;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #ffffff;
+  overflow: hidden;
+  -webkit-animation: loading-fade 1.8s ease-in-out 4s forwards;
+          animation: loading-fade 1.8s ease-in-out 4s forwards;
+}
+
+.page-loader .loader {
+  position: relative;
+  border-radius: 50%;
+  border: 5px solid #ffffff;
+}
+
+.page-loader .loader span {
+  position: relative;
+  display: inline-block;
+  font-family: "Shrikhand", sans-serif;
+  font-size: 40px;
+}
+
+.page-loader .loader span:nth-child(1) {
+  -webkit-animation: text-jump 1.8s ease-in-out 0.1s forwards 3, loading-fade 1.8s ease-in-out 3.5s forwards;
+          animation: text-jump 1.8s ease-in-out 0.1s forwards 3, loading-fade 1.8s ease-in-out 3.5s forwards;
+}
+
+.page-loader .loader span:nth-child(2) {
+  -webkit-animation: text-jump 1.8s ease-in-out 0.2s forwards 3, loading-fade 1.8s ease-in-out 3.5s forwards;
+          animation: text-jump 1.8s ease-in-out 0.2s forwards 3, loading-fade 1.8s ease-in-out 3.5s forwards;
+}
+
+.page-loader .loader span:nth-child(3) {
+  -webkit-animation: text-jump 1.8s ease-in-out 0.3s forwards 3, loading-fade 1.8s ease-in-out 3.5s forwards;
+          animation: text-jump 1.8s ease-in-out 0.3s forwards 3, loading-fade 1.8s ease-in-out 3.5s forwards;
+}
+
+.page-loader .loader span:nth-child(4) {
+  -webkit-animation: text-jump 1.8s ease-in-out 0.4s forwards 3, loading-fade 1.8s ease-in-out 3.5s forwards;
+          animation: text-jump 1.8s ease-in-out 0.4s forwards 3, loading-fade 1.8s ease-in-out 3.5s forwards;
+}
+
+.page-loader .loader span:nth-child(5) {
+  -webkit-animation: text-jump 1.8s ease-in-out 0.5s forwards 3, loading-fade 1.8s ease-in-out 3.5s forwards;
+          animation: text-jump 1.8s ease-in-out 0.5s forwards 3, loading-fade 1.8s ease-in-out 3.5s forwards;
+}
+
+.page-loader .loader span:nth-child(6) {
+  -webkit-animation: text-jump 1.8s ease-in-out 0.6s forwards 3, loading-fade 1.8s ease-in-out 3.5s forwards;
+          animation: text-jump 1.8s ease-in-out 0.6s forwards 3, loading-fade 1.8s ease-in-out 3.5s forwards;
+}
+
+.page-loader .loader span:nth-child(7) {
+  -webkit-animation: text-jump 1.8s ease-in-out 0.7s forwards 3, loading-fade 1.8s ease-in-out 3.5s forwards;
+          animation: text-jump 1.8s ease-in-out 0.7s forwards 3, loading-fade 1.8s ease-in-out 3.5s forwards;
+}
+
+.page-loader .loader span:nth-child(8) {
+  -webkit-animation: text-jump 1.8s ease-in-out 0.8s forwards 3, loading-fade 1.8s ease-in-out 3.5s forwards;
+          animation: text-jump 1.8s ease-in-out 0.8s forwards 3, loading-fade 1.8s ease-in-out 3.5s forwards;
 }
 
 .card-content-like-button input[type="checkbox"],
@@ -1181,7 +1255,7 @@ footer .footer-list li a i {
   }
   to {
     opacity: 0%;
-    overflow: hidden;
+    overflow: visible;
     visibility: hidden;
   }
 }
@@ -1192,7 +1266,7 @@ footer .footer-list li a i {
   }
   to {
     opacity: 0%;
-    overflow: hidden;
+    overflow: visible;
     visibility: hidden;
   }
 }
