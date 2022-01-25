@@ -1,0 +1,31 @@
+.loading-overlay {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 99999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  overflow: hidden;
+  animation: loading-fade 1.8s ease-in-out 4s forwards;
+  .loader {
+    position: relative;
+    border-radius: 50%;
+    border: 5px solid #ffffff;
+    span {
+      position: relative;
+      display: inline-block;
+      font-family: $sherikhand-font-family;
+      font-size: 40px;
+      @for $i from 1 through 8 {
+        &:nth-child(#{$i}) {
+          animation: text-jump 1.8s ease-in-out #{$i * 0.1}s forwards 3,
+            loading-fade 1.8s ease-in-out 3.5s forwards;
+        }
+      }
+    }
+  }
+}

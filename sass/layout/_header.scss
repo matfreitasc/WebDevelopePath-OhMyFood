@@ -1,0 +1,27 @@
+.header {
+  width: 100%;
+  .shadow {
+    position: relative;
+    box-shadow: 0px 2px 4px 1px rgba(0, 0, 0, 0.21);
+  }
+  .logo-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 10px;
+
+    span {
+      font-family: $sherikhand-font-family;
+      font-size: 30px;
+      
+    }
+    a {
+      position: absolute;
+      top: 20px;
+      left: 24px;
+      font-size: 20px;
+      color: black;
+    }
+  }
+}

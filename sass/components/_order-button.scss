@@ -1,0 +1,21 @@
+.order-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 50px 0;
+  position: relative;
+  opacity: 0;
+  animation: cards-loading 1s ease-in-out forwards 5.55s;
+  button {
+    position: relative;
+    width: 186px;
+    height: 50px;
+    background: $gradient-button-color;
+    border-radius: 25px;
+    color: white;
+    font-size: 16px;
+    border-style: none;
+    cursor: pointer;
+    box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, 0.4);
+  }
+}

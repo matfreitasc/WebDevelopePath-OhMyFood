@@ -1,0 +1,28 @@
+// Base //
+@import "./base/fonts";
+@import "./base/reset";
+@import "./base/colors";
+
+// Layout //
+
+@import "./layout/header";
+@import "./layout/location";
+@import "./layout/how-it-works";
+@import "./layout/restaurant-list";
+@import "./layout/menu-book-container";
+@import "./layout/menu-container";
+@import "./layout/footer";
+
+// Components //
+
+@import "./components/_new-overlay";
+@import "./components/_like-heart-button";
+@import "./components/_loading-overlay";
+@import "./components/_menu-tittle";
+@import "./components/_menu-like-button";
+@import "./components/_menu-cards";
+@import "./components/_order-button";
+
+// Animations //
+@import "./components/Animations/dish-types";
+@import "./components/Animations/animations";
