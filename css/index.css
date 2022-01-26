@@ -216,7 +216,6 @@ a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  height: 288px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -228,8 +227,8 @@ a {
       justify-content: space-around;
   -ms-flex-wrap: nowrap;
       flex-wrap: nowrap;
-  font-family: "Roboto", sans-serif;
-  padding: 20px;
+  padding: 40px 30px;
+  gap: 40px;
 }
 
 .menu-book-container .menu-explore-button {
@@ -249,7 +248,6 @@ a {
   height: 50px;
   border-radius: 50px;
   font-size: 16px;
-  font-family: "Roboto", sans-serif;
   color: #fff;
   -webkit-box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, 0.4);
           box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, 0.4);
@@ -262,7 +260,6 @@ a {
 }
 
 .menu-book-container p {
-  width: 298px;
   font-size: 18px;
   font-weight: 200;
   text-align: center;
@@ -334,16 +331,17 @@ footer .footer-list li a i {
   margin-right: 12px;
 }
 
-.new-restaurant {
+.new {
   position: relative;
 }
 
-.new-restaurant::before {
+.new::before {
   position: absolute;
-  top: 13px;
+  top: 14px;
   right: 10px;
   width: 90px;
   height: 30px;
+  border-radius: 2px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -365,8 +363,6 @@ footer .footer-list li a i {
   right: 0;
   bottom: 0;
   opacity: 0;
-  width: 26px;
-  height: 26px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -386,23 +382,15 @@ footer .footer-list li a i {
 
 .card-content-like-button input[type="checkbox"] + label i,
 .menu-tittle-like-button input[type="checkbox"] + label i {
-  position: absolute;
-  top: 3px;
-  font-size: 22px;
+  font-size: 25px;
   color: black;
-  z-index: 0;
 }
 
 .card-content-like-button input[type="checkbox"] + label::before,
 .menu-tittle-like-button input[type="checkbox"] + label::before {
   position: absolute;
-  bottom: 0px;
-  left: 0px;
   font-family: "font awesome 5 free";
-  font-weight: 100;
-  font-size: 22px;
   color: black;
-  z-index: 1;
   content: "";
   /* fa-heart */
   cursor: pointer;
@@ -410,10 +398,10 @@ footer .footer-list li a i {
 
 .card-content-like-button input[type="checkbox"]:checked + label::before,
 .menu-tittle-like-button input[type="checkbox"]:checked + label::before {
-  font-size: 22px;
-  -webkit-animation: fill-in 0.3s ease-in-out forwards;
-          animation: fill-in 0.3s ease-in-out forwards;
-  font-weight: 700;
+  font-size: 25px;
+  -webkit-animation: fill-in 1s cubic-bezier(0.54, 0.24, 0, 1.04) forwards;
+          animation: fill-in 1s cubic-bezier(0.54, 0.24, 0, 1.04) forwards;
+  font-weight: 600;
   background: linear-gradient(45deg, #ff79da 0%, #9356dc 100%);
   background-size: 10%;
   background-clip: text;
@@ -439,8 +427,13 @@ footer .footer-list li a i {
 
 .menu-tittle h2 {
   font-size: 25px;
-  font-weight: 700;
   font-family: "Shrikhand", sans-serif;
+}
+
+@media (min-width: 425px) {
+  .menu-tittle h2 {
+    font-size: 30px;
+  }
 }
 
 .restaurants-cards {
@@ -516,19 +509,7 @@ footer .footer-list li a i {
   width: 26px;
   height: 26px;
   cursor: pointer;
-}
-
-.menu-tittle-like-button label {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 26px;
-  height: 26px;
-}
-
-.menu-tittle-like-button label i {
-  font-size: 22px;
-  color: black;
+  margin-right: 35px;
 }
 
 .menu-cards {
@@ -1118,22 +1099,30 @@ footer .footer-list li a i {
 }
 
 @-webkit-keyframes fill-in {
-  from {
+  0% {
     -webkit-transform: scale(0);
             transform: scale(0);
   }
-  to {
+  50% {
+    -webkit-transform: scale(1.6);
+            transform: scale(1.6);
+  }
+  100% {
     -webkit-transform: scale(1.2);
             transform: scale(1.2);
   }
 }
 
 @keyframes fill-in {
-  from {
+  0% {
     -webkit-transform: scale(0);
             transform: scale(0);
   }
-  to {
+  50% {
+    -webkit-transform: scale(1.6);
+            transform: scale(1.6);
+  }
+  100% {
     -webkit-transform: scale(1.2);
             transform: scale(1.2);
   }

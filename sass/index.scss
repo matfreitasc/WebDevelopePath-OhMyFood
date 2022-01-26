@@ -1,10 +1,11 @@
 // Base //
+
 @import "./base/fonts";
 @import "./base/reset";
 @import "./base/colors";
+@import "./base/breakpoints";
 
 // Layout //
-
 @import "./layout/header";
 @import "./layout/location";
 @import "./layout/how-it-works";
@@ -17,7 +18,7 @@
 
 @import "./components/_new-overlay";
 @import "./components/_like-heart-button";
-// @import "./components/_loading-overlay";
+//@import "./components/_loading-overlay";
 @import "./components/_menu-tittle";
 @import "./components/_restaurant-cards";
 @import "./components/_menu-like-button";

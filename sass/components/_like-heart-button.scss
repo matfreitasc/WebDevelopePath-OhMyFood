@@ -1,3 +1,4 @@
+$size: 25px;
 
 .card-content-like-button,
 .menu-tittle-like-button {
@@ -6,8 +7,6 @@
     right: 0;
     bottom: 0;
     opacity: 0;
-    width: 26px;
-    height: 26px;
     display: flex;
     align-items: center;
     & + label {
@@ -17,29 +16,21 @@
       right: 0;
       bottom: 0;
       i {
-        position: absolute;
-        top: 3px;
-        font-size: 22px;
+        font-size: $size;
         color: $like-button-color;
-        z-index: 0;
       }
       &::before {
         position: absolute;
-        bottom: 0px;
-        left: 0px;
         font-family: "font awesome 5 free";
-        font-weight: 100;
-        font-size: 22px;
         color: $like-button-color;
-        z-index: 1;
         content: ""; /* fa-heart */
         cursor: pointer;
       }
     }
     &:checked + label::before {
-      font-size: 22px;
-      animation: fill-in 0.3s ease-in-out forwards;
-      font-weight: 700;
+      font-size: $size;
+      animation: fill-in 1s cubic-bezier(0.54, 0.24, 0, 1.04) forwards;
+      font-weight: 600;
       background: linear-gradient(
         45deg,
         $secondary-color 0%,

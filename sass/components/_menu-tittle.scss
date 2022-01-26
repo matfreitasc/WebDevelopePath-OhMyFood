@@ -5,7 +5,9 @@
   justify-content: space-between;
   h2 {
     font-size: 25px;
-    font-weight: $bold;
     font-family: $sherikhand-font-family;
+    @include sm {
+      font-size: 30px;
+    }
   }
 }
