@@ -382,7 +382,7 @@ footer .footer-list li a i {
 
 .card-content-like-button input[type="checkbox"] + label i,
 .menu-tittle-like-button input[type="checkbox"] + label i {
-  font-size: 25px;
+  font-size: 24px;
   color: black;
 }
 
@@ -398,10 +398,11 @@ footer .footer-list li a i {
 
 .card-content-like-button input[type="checkbox"]:checked + label::before,
 .menu-tittle-like-button input[type="checkbox"]:checked + label::before {
-  font-size: 25px;
+  font-size: 24px;
   -webkit-animation: fill-in 1s cubic-bezier(0.54, 0.24, 0, 1.04) forwards;
           animation: fill-in 1s cubic-bezier(0.54, 0.24, 0, 1.04) forwards;
   font-weight: 600;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   background: linear-gradient(45deg, #ff79da 0%, #9356dc 100%);
   background-size: 10%;
   background-clip: text;
