@@ -515,11 +515,23 @@ a {
 .restaurants-cards .card .card-image {
   width: 100%;
   height: 175px;
+  -webkit-transition: height 150ms ease-in-out;
+  transition: height 150ms ease-in-out;
   -o-object-fit: cover;
      object-fit: cover;
   -o-object-position: center bottom;
      object-position: center bottom;
   border-radius: 12px 12px 0px 0px;
+}
+@media (min-width: 375px) {
+  .restaurants-cards .card .card-image {
+    height: 225px;
+  }
+}
+@media (min-width: 425px) {
+  .restaurants-cards .card .card-image {
+    height: 225px;
+  }
 }
 .restaurants-cards .card:nth-child(2) .card-image {
   -o-object-position: center -148px;

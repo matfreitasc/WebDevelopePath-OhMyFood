@@ -40,6 +40,10 @@
     .card-image {
       width: 100%;
       height: 175px;
+      transition: height 150ms ease-in-out;
+      @include media(xs, sm) {
+        height: 225px;
+      }
       object-fit: cover;
       object-position: center bottom;
       border-radius: 12px 12px 0px 0px;
