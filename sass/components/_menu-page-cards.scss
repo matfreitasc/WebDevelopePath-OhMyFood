@@ -71,7 +71,7 @@
           position: absolute;
           right: -60px;
           content: "";
-          transition: 0.4s;
+          transition: 0.4s ease-in-out;
           background-color: $tertiary-color;
         }
         &::after {
@@ -82,7 +82,7 @@
           position: absolute;
           right: -30px;
           content: "\f058";
-          transition: 0.4s;
+          transition: 0.4s ease-in-out;
         }
       }
       label {
@@ -107,7 +107,7 @@
           opacity: 0;
           display: none;
           position: relative;
-          transition: opacity 0.09s ease-in-out 0.18s;
+          transition: opacity 130ms ease-in-out 0.18s;
         }
       }
 
