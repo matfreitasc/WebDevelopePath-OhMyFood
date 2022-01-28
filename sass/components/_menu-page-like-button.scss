@@ -1,0 +1,48 @@
+.menu-tittle-like-button {
+  position: relative;
+  width: 26px;
+  height: 26px;
+  cursor: pointer;
+  margin-right: 35px;
+  input[type="checkbox"] {
+    position: absolute;
+    inset: 0;
+    opacity: 0;
+    & + label {
+      i,
+      svg {
+        font-size: $size;
+        color: $like-button-color;
+      }
+      &::before {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        font-family: "font awesome 5 free";
+        color: $like-button-color;
+        content: "";
+        cursor: pointer;
+      }
+    }
+    &:checked + label::before,
+    &:hover + label::before {
+      font-size: $size;
+      animation: fill-in 1s cubic-bezier(0.54, 0.24, 0, 1.04) forwards;
+      font-weight: 600;
+      text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+      background: linear-gradient(
+        45deg,
+        $secondary-color 0%,
+        $primary-color 100%
+      );
+      background-size: 10%;
+      background-clip: text;
+      background-color: transparent;
+      -webkit-text-fill-color: transparent;
+      -webkit-background-clip: text;
+      content: "\f004"; /* fa-heart */
+    }
+  }
+}

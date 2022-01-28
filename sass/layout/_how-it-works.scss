@@ -1,0 +1,133 @@
+.how-it-works {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 30px 20px;
+  align-items: center;
+
+  h1 {
+    margin: 15px 0 30px 0;
+    font-size: 24px;
+    font-weight: $bold;
+    color: #000000;
+  }
+  .cards {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: space-around;
+    flex-wrap: wrap;
+    width: 98%;
+    gap: 22px;
+    margin-left: 10px;
+    margin-bottom: 40px;
+    .how-it-works-card {
+      width: 100%;
+      background-color: #f6f6f6;
+      border-radius: 20px;
+      @include flx-start;
+      position: relative;
+      padding: 28px 25px;
+      gap: 22px;
+      box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, 0.21);
+      @include md {
+        width: 31%;
+        height: 200px;
+        align-items: flex-start;
+        justify-content: flex-start;
+        padding: 10px 25px;
+        gap: 15px;
+      }
+      @include media(lg, mdl) {
+        width: 260px;
+        height: 200px;
+        align-items: flex-start;
+        justify-content: flex-start;
+        padding: 10px 25px;
+        gap: 15px;
+      }
+      span {
+        position: absolute;
+        top: 75/2px;
+        left: -15px;
+        width: 25px;
+        height: 25px;
+        background-color: $primary-color;
+        border-radius: 50%;
+        @include flx-center;
+        font-weight: $light;
+        color: #ffffff;
+        @include media(lg, md) {
+          top: -10px;
+          left: -10px;
+          width: 30px;
+          height: 30px;
+          font-size: 20px;
+        }
+      }
+      svg,
+      i {
+        font-size: 18px;
+        color: #9a9a9a;
+        @include media(lg, md) {
+          display: none;
+        }
+      }
+      p {
+        font-size: 16px;
+        font-weight: $bold;
+        color: #000000;
+      }
+      &:nth-child(1) {
+        @include media(lg, md) {
+          position: relative;
+          flex-direction: column;
+          align-items: center;
+          &::after {
+            filter: drop-shadow(0px 0px 6px rgba(0, 0, 0, 0.397));
+            content: "";
+            width: 125px;
+            height: 125px;
+            background: transparent url("/images/custom-icons/1.svg") no-repeat
+              center;
+          }
+        }
+      }
+      &:nth-child(2) {
+        @include media(lg, md) {
+          position: relative;
+          flex-direction: column;
+          align-items: center;
+          &::after {
+            filter: drop-shadow(0px 0px 6px rgba(59, 59, 59, 0.1));
+            content: "";
+            width: 125px;
+            height: 125px;
+            background: transparent url("/images/custom-icons/2.svg") no-repeat
+              center;
+          }
+        }
+      }
+      &:nth-child(3) {
+        background-color: #f5edff;
+        svg,
+        i {
+          color: #a877e3;
+        }
+
+        @include media(lg, md) {
+          position: relative;
+          flex-direction: column;
+          align-items: center;
+          &::after {
+            content: "";
+            width: 125px;
+            height: 125px;
+            background: transparent url("/images/custom-icons/3.svg") no-repeat
+              center;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  min-width: 375px;
+  overflow-x: hidden;
+  font-family: $roboto-font-family;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}

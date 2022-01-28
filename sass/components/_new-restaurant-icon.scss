@@ -1,0 +1,18 @@
+.new {
+  position: relative;
+  &::before {
+    position: absolute;
+    top: 14px;
+    right: 10px;
+    width: 90px;
+    height: 30px;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: $semibold;
+    color: $tertiary-color-darker;
+    background-color: $tertiary-color;
+    content: "New";
+  }
+}

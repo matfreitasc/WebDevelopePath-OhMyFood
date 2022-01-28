@@ -1,0 +1,135 @@
+.menu-cards {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  gap: 15px;
+  margin: 15px 0px 0px 0px;
+
+  .cards {
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, 0.205);
+    padding: 12px 12px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: nowrap;
+    overflow: hidden;
+    z-index: 1;
+    opacity: 0;
+    @for $i from 1 through 14 {
+      &:nth-child(#{$i}) {
+        animation-name: cards-loading;
+        animation-duration: 0.3s;
+        animation-delay: #{$i * 0.5}s;
+        animation-timing-function: ease-in-out;
+        animation-fill-mode: forwards;
+      }
+    }
+
+    .item-name {
+      width: 80%;
+      font-size: 18px;
+      font-weight: $bold;
+      color: #000000;
+      margin-bottom: 5px;
+    }
+    .item-description {
+      width: 75%;
+      font-size: 15px;
+      font-weight: $light;
+      color: #000000;
+    }
+
+    .add-to-cart {
+      position: absolute;
+      top: 0;
+      left: 0px;
+      height: 100%;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      z-index: 2;
+      input[type="checkbox"] {
+        display: flex;
+        align-items: center;
+        position: absolute;
+        left: 0px;
+        width: 100%;
+        height: 100%;
+        appearance: none;
+        outline: none;
+        opacity: 1;
+        cursor: pointer;
+        border-radius: 0 0 15px;
+        overflow: hidden;
+        &::before {
+          width: 60px;
+          height: 100%;
+          position: absolute;
+          right: -60px;
+          content: "";
+          transition: 0.4s ease-in-out;
+          background-color: $tertiary-color;
+        }
+        &::after {
+          font-family: "Font Awesome 5 Free";
+          font-weight: 900;
+          font-size: 22px;
+          color: white;
+          position: absolute;
+          right: -30px;
+          content: "\f058";
+          transition: 0.4s ease-in-out;
+        }
+      }
+      label {
+        display: flex;
+        align-items: center;
+        align-content: center;
+        position: absolute;
+        height: fit-content;
+        right: 0px;
+        top: 35px;
+        margin-right: 26px;
+        padding: 2px;
+        font-size: 16px;
+        font-weight: $bold;
+        transition-delay: 0.4s;
+        transition: 0.5s;
+        background-color: white;
+        overflow: hidden;
+        &::before {
+          content: "...";
+          margin-right: 10px;
+          opacity: 0;
+          display: none;
+          position: relative;
+          transition: opacity 130ms ease-in-out 0.18s;
+        }
+      }
+
+      input[type="checkbox"]:checked {
+        &::after {
+          right: 20px;
+          transform: rotate(360deg);
+        }
+        &::before {
+          background-color: $tertiary-color;
+          right: 0px;
+        }
+      }
+      input[type="checkbox"]:checked + label {
+        right: 45px;
+      }
+      input[type="checkbox"]:checked + .big-text {
+        &::before {
+          display: inline-block;
+          opacity: 1;
+        }
+      }
+    }
+  }
+}
