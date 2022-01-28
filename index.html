@@ -24,7 +24,7 @@
     <title>ohmyfood</title>
   </head>
   <body>
-    <div class="loading-overlay">
+    <div class="loading-overlay" aria-hidden="true">
       <div class="loader">
         <span>o</span>
         <span>h</span>
@@ -37,7 +37,7 @@
       </div>
     </div>
     <header class="header">
-      <div class="shadow">
+      <div class="shadow" aria-hidden="true">
         <div class="logo-header">
           <span>ohmyfood</span>
         </div>
@@ -46,14 +46,14 @@
         <span>
           <i class="fas fa-map-marker-alt"></i>
         </span>
-        <div class="location-title">
+        <div class="location-title" aria-label="Your Location">
           <h1>Paris,Belleville</h1>
         </div>
       </div>
     </header>
     <div class="main">
       <div>
-        <div class="menu-book-container">
+        <div class="main-book">
           <h1>Book the menu you like</h1>
           <p>Discover top-of-the-art restaurants we picked for you</p>
           <a href="#restaurants" class="menu-explore-button">
@@ -92,7 +92,7 @@
                 <img
                   class="card-image"
                   src="./images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg"
-                  alt="restaurant1"
+                  alt="The Full Palette restaurant"
                 />
               </a>
 
@@ -107,7 +107,7 @@
                   type="checkbox"
                   id="like-checkbox"
                   class="like-heart"
-                  aria-label="like button The Full Palette"
+                  aria-label="Like button The Full Palette"
                 />
                 <label for="like-checkbox"><i class="far fa-heart"></i></label>
               </div>
@@ -118,7 +118,7 @@
                 <img
                   class="card-image"
                   src="./images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg"
-                  alt="restaurant1"
+                  alt="THe Enchanted Plate Restaurant"
                 />
               </a>
 
@@ -145,7 +145,7 @@
                 <img
                   class="card-image"
                   src="./images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg"
-                  alt="restaurant1"
+                  alt="Bastille Restaurant"
                 />
               </a>
               <a href="/menu-pages/bastille.html">
@@ -171,7 +171,7 @@
                 <img
                   class="card-image"
                   src="./images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg"
-                  alt="restaurant1"
+                  alt="Le Gourmand Restaurant"
                 />
               </a>
               <a href="/menu-pages/legourmand.html">
@@ -196,7 +196,7 @@
       </div>
     </div>
     <footer>
-      <div class="logo">
+      <div class="logo" aria-hidden="true">
         <span>ohmyfood</span>
       </div>
       <div class="footer-list">

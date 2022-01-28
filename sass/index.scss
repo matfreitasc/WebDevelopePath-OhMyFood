@@ -4,24 +4,23 @@
 @import "./base/reset";
 @import "./base/colors";
 @import "./base/breakpoints";
+@import "./base/mixins";
 
 // Layout //
 @import "./layout/header";
 @import "./layout/how-it-works";
-@import "./layout/restaurant-list";
-@import "./layout/menu-book-container";
-@import "./layout/menu-container";
+@import "./layout/restaurant-container";
+@import "./layout/main-book";
+@import "./layout/menu-page";
 @import "./layout/footer";
 
 // Components //
 
-@import "./components/_new-overlay";
-@import "./components/_like-heart-button";
-@import "./components/_loading-overlay";
-@import "./components/_menu-tittle";
-@import "./components/_restaurant-cards";
-@import "./components/_menu-like-button";
-@import "./components/_menu-cards";
+@import "./components/_new-restaurant-icon";
+@import "./components/_heart-like-button";
+//@import "./components/_loading-overlay";
+@import "./components/_menu-page-like-button";
+@import "./components/_menu-page-cards";
 @import "./components/_order-button";
 
 // Animations //
