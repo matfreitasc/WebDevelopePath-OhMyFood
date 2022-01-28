@@ -1,6 +1,15 @@
 .header {
+  position: relative;
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  background: white;
+  @include media(lg, md) {
+    flex-direction: row;
+    align-items: center;
+  }
   .shadow {
+    width: 100%;
     position: relative;
     box-shadow: 0px 2px 4px 1px rgba(0, 0, 0, 0.21);
   }
@@ -21,6 +30,32 @@
       left: 24px;
       font-size: 20px;
       color: black;
+    }
+  }
+  .location {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 15px;
+    background-color: #eaeaea;
+    gap: 10px;
+    span,
+    h1 {
+      font-size: 18px;
+    }
+    @include media(lg, md) {
+      position: absolute;
+      right: 0px;
+      bottom: -5px;
+      background-color: transparent;
+      width: fit-content;
+      width: -moz-fit-content;
+      span,
+      h1 {
+        font-size: 15px;
+        color: #2b2b2b;
+      }
     }
   }
 }

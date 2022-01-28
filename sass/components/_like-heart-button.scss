@@ -1,33 +1,44 @@
 $size: 24px;
 
-.card-content-like-button,
-.menu-tittle-like-button {
+.card-content-like-button {
+  position: relative;
+  margin-left: auto;
+  margin-right: 20px;
+  bottom: 25px;
+  @include media(lg, md) {
+    bottom: 25px;
+  }
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
   input[type="checkbox"] {
-    position: relative;
+    position: absolute;
+    top: 0;
+    left: 0;
     right: 0;
     bottom: 0;
     opacity: 0;
-    display: flex;
-    align-items: center;
     & + label {
-      position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      i {
+      i,
+      svg {
         font-size: $size;
         color: $like-button-color;
       }
       &::before {
         position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
         font-family: "font awesome 5 free";
         color: $like-button-color;
-        content: ""; /* fa-heart */
+        content: "";
         cursor: pointer;
       }
     }
-    &:checked + label::before {
+    &:checked + label::before,
+    &:hover + label::before {
       font-size: $size;
       animation: fill-in 1s cubic-bezier(0.54, 0.24, 0, 1.04) forwards;
       font-weight: 600;

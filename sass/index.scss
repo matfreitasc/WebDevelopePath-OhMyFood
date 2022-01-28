@@ -7,7 +7,6 @@
 
 // Layout //
 @import "./layout/header";
-@import "./layout/location";
 @import "./layout/how-it-works";
 @import "./layout/restaurant-list";
 @import "./layout/menu-book-container";
@@ -18,7 +17,7 @@
 
 @import "./components/_new-overlay";
 @import "./components/_like-heart-button";
-//@import "./components/_loading-overlay";
+@import "./components/_loading-overlay";
 @import "./components/_menu-tittle";
 @import "./components/_restaurant-cards";
 @import "./components/_menu-like-button";

@@ -3,6 +3,7 @@ $breakpoints: (
   xs: 375px,
   sm: 425px,
   md: 768px,
+  mdl: 882px,
   lg: 1024px,
   xl: 1200px,
   xxl: 1201px,
@@ -51,3 +52,10 @@ $breakpoints: (
   }
 }
 
+@mixin media($keys...) {
+  @each $key in $keys {
+    @media (min-width: map-get($breakpoints, $key)) {
+      @content;
+    }
+  }
+}
