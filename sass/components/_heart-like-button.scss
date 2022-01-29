@@ -37,6 +37,7 @@ $size: 24px;
     }
     &:checked + label::before,
     &:hover + label::before {
+      inset: -2px 0 0 0 ;
       font-size: $size;
       animation: fill-in 1s cubic-bezier(0.54, 0.24, 0, 1.04) forwards;
       font-weight: 600;

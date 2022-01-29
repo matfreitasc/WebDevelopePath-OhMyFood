@@ -864,6 +864,7 @@ footer .footer-list li a svg {
   cursor: pointer;
 }
 .card-content-like-button input[type=checkbox]:checked + label::before, .card-content-like-button input[type=checkbox]:hover + label::before {
+  inset: -2px 0 0 0;
   font-size: 24px;
   -webkit-animation: fill-in 1s cubic-bezier(0.54, 0.24, 0, 1.04) forwards;
           animation: fill-in 1s cubic-bezier(0.54, 0.24, 0, 1.04) forwards;
