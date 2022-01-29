@@ -192,7 +192,7 @@ a {
   margin-left: 10px;
   margin-bottom: 40px;
 }
-@media (min-width: ) {
+@media (min-width: 1324px) {
   .how-it-works .cards {
     width: 1500px;
   }
@@ -863,7 +863,6 @@ footer .footer-list li a svg {
   font-weight: 600;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   background: linear-gradient(45deg, #ff79da 0%, #9356dc 100%);
-  background-size: 10%;
   background-clip: text;
   background-color: transparent;
   -webkit-text-fill-color: transparent;
@@ -982,7 +981,6 @@ footer .footer-list li a svg {
   font-weight: 600;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   background: linear-gradient(45deg, #ff79da 0%, #9356dc 100%);
-  background-size: 10%;
   background-clip: text;
   background-color: transparent;
   -webkit-text-fill-color: transparent;
