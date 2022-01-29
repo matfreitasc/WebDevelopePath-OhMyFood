@@ -511,6 +511,13 @@ a {
             flex-direction: row;
   }
 }
+@media (min-width: 996px) {
+  .restaurants-cards {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
 .restaurants-cards .card {
   width: 100%;
   background-color: #ffffff;

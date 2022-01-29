@@ -28,6 +28,9 @@
   @include media(lg, md) {
     flex-direction: row;
   }
+  @include media(mdxl) {
+    justify-content: center;
+  }
   .card {
     width: 100%;
     @include media(lg, md) {
