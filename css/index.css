@@ -156,6 +156,16 @@ a {
       -ms-flex-align: center;
           align-items: center;
 }
+@media (min-width: 1024px) {
+  .how-it-works {
+    padding: 30px 0;
+  }
+}
+@media (min-width: 882px) {
+  .how-it-works {
+    padding: 30px 0;
+  }
+}
 .how-it-works h1 {
   margin: 15px 0 30px 0;
   font-size: 24px;
@@ -175,7 +185,7 @@ a {
       align-content: space-around;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  max-width: 80%;
+  width: 98%;
   gap: 22px;
   margin-left: 10px;
   margin-bottom: 40px;
