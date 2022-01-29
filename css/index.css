@@ -192,6 +192,11 @@ a {
   margin-left: 10px;
   margin-bottom: 40px;
 }
+@media (min-width: 996px) {
+  .how-it-works .cards {
+    width: 76%;
+  }
+}
 @media (min-width: 1324px) {
   .how-it-works .cards {
     width: 1500px;
