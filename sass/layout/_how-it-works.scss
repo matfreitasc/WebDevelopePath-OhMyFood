@@ -21,7 +21,10 @@
     align-content: space-around;
     flex-wrap: wrap;
     width: 98%;
-    
+    transition: width 0.5s ease-in-out;
+    @include media(1324px){
+      width: 1500px;  
+    }
     gap: 22px;
     margin-left: 10px;
     margin-bottom: 40px;

@@ -186,9 +186,16 @@ a {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   width: 98%;
+  -webkit-transition: width 0.5s ease-in-out;
+  transition: width 0.5s ease-in-out;
   gap: 22px;
   margin-left: 10px;
   margin-bottom: 40px;
+}
+@media (min-width: ) {
+  .how-it-works .cards {
+    width: 1500px;
+  }
 }
 .how-it-works .cards .how-it-works-card {
   width: 100%;
