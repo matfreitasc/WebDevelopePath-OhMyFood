@@ -315,7 +315,7 @@ a {
     content: "";
     width: 125px;
     height: 125px;
-    background: transparent url("https://github.com/matfreitasc/ohmyfood_project_3/tree/master/images/custom-icons/card.svg") no-repeat center;
+    background: transparent url("https://raw.githubusercontent.com/matfreitasc/ohmyfood_project_3/master/images/custom-icons/card.svg") no-repeat center;
   }
 }
 @media (min-width: 768px) {
@@ -335,7 +335,7 @@ a {
     content: "";
     width: 125px;
     height: 125px;
-    background: transparent url("https://github.com/matfreitasc/ohmyfood_project_3/tree/master/images/custom-icons/card.svg") no-repeat center;
+    background: transparent url("https://raw.githubusercontent.com/matfreitasc/ohmyfood_project_3/master/images/custom-icons/card.svg") no-repeat center;
   }
 }
 @media (min-width: 1024px) {
@@ -355,7 +355,7 @@ a {
     content: "";
     width: 125px;
     height: 125px;
-    background: transparent url("https://github.com/matfreitasc/ohmyfood_project_3/tree/master/images/custom-icons/menu.svg") no-repeat center;
+    background: transparent url("https://raw.githubusercontent.com/matfreitasc/ohmyfood_project_3/master/images/custom-icons/menu.svg") no-repeat center;
   }
 }
 @media (min-width: 768px) {
@@ -375,7 +375,7 @@ a {
     content: "";
     width: 125px;
     height: 125px;
-    background: transparent url("https://github.com/matfreitasc/ohmyfood_project_3/tree/master/images/custom-icons/menu.svg") no-repeat center;
+    background: transparent url("https://raw.githubusercontent.com/matfreitasc/ohmyfood_project_3/master/images/custom-icons/menu.svg") no-repeat center;
   }
 }
 .how-it-works .cards .how-it-works-card:nth-child(3) {
@@ -400,7 +400,7 @@ a {
     content: "";
     width: 125px;
     height: 125px;
-    background: transparent url("https://github.com/matfreitasc/ohmyfood_project_3/tree/master/images/custom-icons/restaurant.svg") no-repeat center;
+    background: transparent url("https://raw.githubusercontent.com/matfreitasc/ohmyfood_project_3/master/images/custom-icons/restaurant.svg") no-repeat center;
   }
 }
 @media (min-width: 768px) {
@@ -418,7 +418,7 @@ a {
     content: "";
     width: 125px;
     height: 125px;
-    background: transparent url("https://github.com/matfreitasc/ohmyfood_project_3/tree/master/images/custom-icons/restaurant.svg") no-repeat center;
+    background: transparent url("https://raw.githubusercontent.com/matfreitasc/ohmyfood_project_3/master/images/custom-icons/restaurant.svg") no-repeat center;
   }
 }
 
