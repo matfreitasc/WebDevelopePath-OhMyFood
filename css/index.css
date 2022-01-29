@@ -1306,16 +1306,25 @@ footer .footer-list li a svg {
   -webkit-transition: opacity 130ms ease-in-out 0.18s;
   transition: opacity 130ms ease-in-out 0.18s;
 }
-.menu-cards .cards .add-to-cart input[type=checkbox]:checked::after {
+.menu-cards .cards .add-to-cart input[type=checkbox]:checked::after, .menu-cards .cards .add-to-cart input[type=checkbox]:hover::after {
   right: 20px;
   -webkit-transform: rotate(360deg);
           transform: rotate(360deg);
 }
-.menu-cards .cards .add-to-cart input[type=checkbox]:checked::before {
+.menu-cards .cards .add-to-cart input[type=checkbox]:checked::before, .menu-cards .cards .add-to-cart input[type=checkbox]:hover::before {
   background-color: #99e2d0;
   right: 0px;
 }
-.menu-cards .cards .add-to-cart input[type=checkbox]:checked + label {
+.menu-cards .cards .add-to-cart input[type=checkbox]:hover::after {
+  -webkit-animation: shake 1s ease-in-out infinite alternate;
+          animation: shake 1s ease-in-out infinite alternate;
+}
+.menu-cards .cards .add-to-cart input[type=checkbox]:checked::after {
+  -webkit-animation: shake 0s;
+          animation: shake 0s;
+}
+.menu-cards .cards .add-to-cart input[type=checkbox]:checked + label,
+.menu-cards .cards .add-to-cart input[type=checkbox]:hover + label {
   right: 45px;
 }
 .menu-cards .cards .add-to-cart input[type=checkbox]:checked + .big-text::before {
@@ -1552,6 +1561,34 @@ footer .footer-list li a svg {
     -webkit-transform: translatey(0px);
             transform: translatey(0px);
     opacity: 1;
+  }
+}
+@-webkit-keyframes shake {
+  0% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  50% {
+    -webkit-transform: rotate(40deg);
+            transform: rotate(40deg);
+  }
+  100% {
+    -webkit-transform: rotate(-40deg);
+            transform: rotate(-40deg);
+  }
+}
+@keyframes shake {
+  0% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  50% {
+    -webkit-transform: rotate(40deg);
+            transform: rotate(40deg);
+  }
+  100% {
+    -webkit-transform: rotate(-40deg);
+            transform: rotate(-40deg);
   }
 }
 .dish-types {
