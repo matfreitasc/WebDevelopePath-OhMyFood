@@ -1307,14 +1307,25 @@ footer .footer-list li a svg {
   -webkit-transition: opacity 130ms ease-in-out 0.18s;
   transition: opacity 130ms ease-in-out 0.18s;
 }
-.menu-cards .cards .add-to-cart input[type=checkbox]:checked::after, .menu-cards .cards .add-to-cart input[type=checkbox]:hover::after {
+.menu-cards .cards .add-to-cart input[type=checkbox]:checked::after {
   right: 20px;
   -webkit-transform: rotate(360deg);
           transform: rotate(360deg);
 }
-.menu-cards .cards .add-to-cart input[type=checkbox]:checked::before, .menu-cards .cards .add-to-cart input[type=checkbox]:hover::before {
+.menu-cards .cards .add-to-cart input[type=checkbox]:checked::before {
   background-color: #99e2d0;
   right: 0px;
+}
+@media (min-width: 1024px) {
+  .menu-cards .cards .add-to-cart input[type=checkbox]:hover::after {
+    right: 20px;
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+  .menu-cards .cards .add-to-cart input[type=checkbox]:hover::before {
+    background-color: #99e2d0;
+    right: 0px;
+  }
 }
 @media (min-width: 1024px) {
   .menu-cards .cards .add-to-cart input[type=checkbox]:hover::after {

@@ -112,8 +112,7 @@
       }
 
       input[type="checkbox"] {
-        &:checked,
-        &:hover {
+        &:checked {
           &::after {
             right: 20px;
             transform: rotate(360deg);
@@ -121,6 +120,18 @@
           &::before {
             background-color: $tertiary-color;
             right: 0px;
+          }
+        }
+        @include lg {
+          &:hover {
+            &::after {
+              right: 20px;
+              transform: rotate(360deg);
+            }
+            &::before {
+              background-color: $tertiary-color;
+              right: 0px;
+            }
           }
         }
         &:hover {
