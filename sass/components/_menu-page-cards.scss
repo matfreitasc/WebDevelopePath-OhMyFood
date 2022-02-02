@@ -115,16 +115,12 @@
         &:checked,
         &:hover {
           &::after {
-            @include lg {
-              right: 20px;
-              transform: rotate(360deg);
-            }
+            right: 20px;
+            transform: rotate(360deg);
           }
           &::before {
-            @include lg {
-              background-color: $tertiary-color;
-              right: 0px;
-            }
+            background-color: $tertiary-color;
+            right: 0px;
           }
         }
         &:hover {
