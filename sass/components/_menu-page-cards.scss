@@ -115,17 +115,23 @@
         &:checked,
         &:hover {
           &::after {
-            right: 20px;
-            transform: rotate(360deg);
+            @include lg {
+              right: 20px;
+              transform: rotate(360deg);
+            }
           }
           &::before {
-            background-color: $tertiary-color;
-            right: 0px;
+            @include lg {
+              background-color: $tertiary-color;
+              right: 0px;
+            }
           }
         }
         &:hover {
           &::after {
-            animation: shake 1s ease-in-out infinite alternate;
+            @include lg {
+              animation: shake 1s ease-in-out infinite alternate;
+            }
           }
         }
         &:checked {
@@ -134,14 +140,18 @@
           }
         }
       }
-      input[type="checkbox"]:checked + label,
-      input[type="checkbox"]:hover + label {
+      input[type="checkbox"]:checked + label {
         right: 45px;
       }
       input[type="checkbox"]:checked + .big-text {
         &::before {
           display: inline-block;
           opacity: 1;
+        }
+      }
+      @include lg {
+        input[type="checkbox"]:hover + label {
+          right: 45px;
         }
       }
     }
