@@ -88,7 +88,7 @@ a {
 .header .logo-header a {
   color: black;
 }
-.header .logo-header .fas .fa-arrow-left {
+.header .logo-header .return {
   position: absolute;
   left: 10px;
 }
