@@ -47,6 +47,7 @@ a {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    position: relative;
   }
 }
 @media (min-width: 768px) {
@@ -58,6 +59,7 @@ a {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    position: relative;
   }
 }
 .header .shadow {
@@ -84,10 +86,6 @@ a {
   font-size: 30px;
 }
 .header .logo-header a {
-  position: absolute;
-  top: 20px;
-  left: 24px;
-  font-size: 20px;
   color: black;
 }
 .header .location {
