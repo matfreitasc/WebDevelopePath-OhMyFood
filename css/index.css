@@ -81,12 +81,16 @@ a {
   width: 100%;
   padding: 10px;
 }
-.header .logo-header span {
+.header .logo-header span a {
   font-family: "Shrikhand", sans-serif;
   font-size: 30px;
 }
 .header .logo-header a {
   color: black;
+}
+.header .logo-header .fas .fa-arrow-left {
+  position: absolute;
+  left: 10px;
 }
 .header .location {
   display: -webkit-box;

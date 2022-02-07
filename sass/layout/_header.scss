@@ -21,12 +21,16 @@
     width: 100%;
     padding: 10px;
 
-    span {
+    span a {
       font-family: $sherikhand-font-family;
       font-size: 30px;
     }
     a {
       color: black;
+    }
+    .fas .fa-arrow-left {
+      position: absolute;
+      left: 10px;
     }
   }
   .location {
